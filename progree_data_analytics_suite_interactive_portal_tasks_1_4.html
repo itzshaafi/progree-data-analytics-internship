@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Progree Data Analytics Suite — Interactive Portal (Tasks 1–4)</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+    .tab-active {
+      background-color: #1e3a8a;
+      color: #ffffff;
+      box-shadow: 0 2px 6px rgba(30, 58, 138, 0.25);
+    }
+    .heatmap-cell {
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .heatmap-cell:hover {
+      transform: scale(1.04);
+      box-shadow: 0 4px 10px rgba(15, 23, 42, 0.15);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+
+  <!-- Top Header -->
+  <header class="bg-gradient-to-r from-slate-900 via-blue-900 to-teal-800 text-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="px-2.5 py-0.5 text-xs font-bold uppercase tracking-wider bg-teal-400/20 text-teal-200 rounded-full border border-teal-400/30">Progree Internship Suite</span>
+          <span class="text-xs text-slate-300">5,200 Cleaned Tx &bull; 1,089 Enterprise Accounts</span>
+        </div>
+        <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight mt-1">Enterprise Analytics, RFM Segmentation &amp; Forecasting Portal</h1>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <label for="regionFilter" class="text-xs font-semibold uppercase tracking-wider text-slate-300">Global Region Filter:</label>
+        <select id="regionFilter" class="bg-slate-800/90 text-white text-sm font-medium rounded-lg px-3 py-2 border border-slate-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
+          <option value="ALL">All 8 Global Regions ($6.02M)</option>
+          <option value="Dhaka Metro">Dhaka Metro ($1.70M)</option>
+          <option value="Chattogram Hub">Chattogram Hub ($862.0K)</option>
+          <option value="London EMEA">London EMEA ($820.6K)</option>
+          <option value="New York North">New York North ($803.5K)</option>
+          <option value="Singapore APAC">Singapore APAC ($765.6K)</option>
+          <option value="Dubai MENA">Dubai MENA ($476.0K)</option>
+          <option value="Toronto Hub">Toronto Hub ($310.8K)</option>
+          <option value="Sydney ANZ">Sydney ANZ ($289.0K)</option>
+        </select>
+        <button id="exportCsvBtn" type="button" class="bg-teal-600 hover:bg-teal-500 text-white text-xs font-bold px-3.5 py-2 rounded-lg transition shadow-sm">
+          Export Filtered RFM CSV
+        </button>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 border-t border-white/10">
+      <nav class="flex flex-wrap gap-1.5 py-2.5" aria-label="Task Navigation">
+        <button type="button" data-tab="tab-task3" class="nav-tab tab-active text-xs sm:text-sm font-semibold px-3.5 py-2 rounded-lg transition">
+          Task 3: RFM &amp; Behavioral Dashboard
+        </button>
+        <button type="button" data-tab="tab-task4" class="nav-tab text-slate-200 hover:bg-white/10 text-xs sm:text-sm font-semibold px-3.5 py-2 rounded-lg transition">
+          Task 4: Hypothesis Tests &amp; Forecaster
+        </button>
+        <button type="button" data-tab="tab-task2" class="nav-tab text-slate-200 hover:bg-white/10 text-xs sm:text-sm font-semibold px-3.5 py-2 rounded-lg transition">
+          Task 2: EDA &amp; Cleaning Pipeline
+        </button>
+        <button type="button" data-tab="tab-task1" class="nav-tab text-slate-200 hover:bg-white/10 text-xs sm:text-sm font-semibold px-3.5 py-2 rounded-lg transition">
+          Task 1 &amp; Upload Guide (LinkedIn + GitHub)
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Toast Banner -->
+  <div id="toastBanner" class="hidden fixed bottom-5 right-5 z-50 bg-slate-900 text-white px-4 py-3 rounded-xl shadow-xl border border-teal-500/40 text-sm font-medium flex items-center gap-2">
+    <span id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <!-- Main Content Container -->
+  <main class="max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 flex-1 space-y-6">
+
+    <!-- Top KPI Strip -->
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
+        <div class="text-xs font-semibold uppercase tracking-wider text-slate-400">Cleaned Net Revenue</div>
+        <div id="kpiRevenue" class="text-2xl font-extrabold text-slate-900 mt-1">$6,024,942</div>
+        <div id="kpiRevSub" class="text-xs text-teal-700 font-medium mt-1">Across 5,200 verified orders</div>
+      </div>
+      <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
+        <div class="text-xs font-semibold uppercase tracking-wider text-slate-400">Active B2B Accounts</div>
+        <div id="kpiCustomers" class="text-2xl font-extrabold text-blue-900 mt-1">1,089</div>
+        <div id="kpiCustSub" class="text-xs text-slate-500 mt-1">245 Champions (43.6% rev share)</div>
+      </div>
+      <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
+        <div class="text-xs font-semibold uppercase tracking-wider text-slate-400">A/B Checkout Lift (Task 4)</div>
+        <div id="kpiAbLift" class="text-2xl font-extrabold text-teal-700 mt-1">+13.65%</div>
+        <div class="text-xs text-slate-500 mt-1">+$148.17/order (p = 1.05e-28)</div>
+      </div>
+      <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-200">
+        <div class="text-xs font-semibold uppercase tracking-wider text-slate-400">16-Week Demand Forecast</div>
+        <div id="kpiForecast" class="text-2xl font-extrabold text-amber-600 mt-1">$1,399,797</div>
+        <div class="text-xs text-slate-500 mt-1">R&sup2; = 0.9323 &bull; MAPE = 4.92%</div>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- TAB 3: TASK 3 RFM & BEHAVIORAL DASHBOARD (Default Active)           -->
+    <!-- =================================================================== -->
+    <section id="tab-task3" class="tab-panel space-y-6">
+      <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 pb-4 border-b border-slate-100">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Task 3: RFM Customer Segmentation &amp; Geospatial Hub Intelligence</h2>
+            <p class="text-xs text-slate-500">Click any segment pill below or change the global region dropdown above to dynamically filter customer metrics.</p>
+          </div>
+          <div class="flex flex-wrap gap-1.5" id="segmentPills">
+            <button type="button" data-seg="ALL" class="seg-btn bg-blue-900 text-white text-xs font-semibold px-3 py-1.5 rounded-full">All Segments</button>
+            <button type="button" data-seg="Champions" class="seg-btn bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3 py-1.5 rounded-full">Champions</button>
+            <button type="button" data-seg="Loyal Customers" class="seg-btn bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3 py-1.5 rounded-full">Loyal</button>
+            <button type="button" data-seg="Potential Loyalists" class="seg-btn bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3 py-1.5 rounded-full">Potential</button>
+            <button type="button" data-seg="At Risk (High Value)" class="seg-btn bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3 py-1.5 rounded-full">At Risk</button>
+            <button type="button" data-seg="Hibernating / Churned" class="seg-btn bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3 py-1.5 rounded-full">Hibernating</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-5">
+          <div>
+            <h3 class="text-sm font-bold text-slate-700 mb-2">Revenue &amp; Account Share by RFM Segment</h3>
+            <div class="relative h-72">
+              <canvas id="rfmChart"></canvas>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-slate-700 mb-2">Geospatial Hub Explorer (Lat/Lon Bubble Projection)</h3>
+            <div class="relative h-72">
+              <canvas id="geoChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RFM Segment Table & Cohort Retention Heatmap -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200 overflow-x-auto">
+          <h3 class="text-base font-bold text-slate-900 mb-1">RFM Segment Behavioral Scorecard</h3>
+          <p class="text-xs text-slate-500 mb-3">Quintile scoring (1–5) on Recency (days), Frequency (orders), and Monetary total ($).</p>
+          <table class="w-full text-left border-collapse text-xs sm:text-sm">
+            <thead>
+              <tr class="bg-slate-900 text-white">
+                <th class="py-2.5 px-3 rounded-tl-lg">Segment</th>
+                <th class="py-2.5 px-2 text-right">Accounts</th>
+                <th class="py-2.5 px-2 text-right">Revenue</th>
+                <th class="py-2.5 px-2 text-right">Avg Spend</th>
+                <th class="py-2.5 px-3 text-right rounded-tr-lg">Recency</th>
+              </tr>
+            </thead>
+            <tbody id="rfmTableBody" class="divide-y divide-slate-200"></tbody>
+          </table>
+        </div>
+
+        <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200 overflow-x-auto">
+          <h3 class="text-base font-bold text-slate-900 mb-1">Quarterly Acquisition Cohort Retention (%)</h3>
+          <p class="text-xs text-slate-500 mb-3">Percentage of acquired enterprise accounts returning in subsequent quarters (Q+0 to Q+5).</p>
+          <div id="cohortGrid" class="space-y-1.5 text-xs"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- TAB 4: TASK 4 HYPOTHESIS TESTS & DEMAND FORECASTER                  -->
+    <!-- =================================================================== -->
+    <section id="tab-task4" class="tab-panel hidden space-y-6">
+      <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-4 border-b border-slate-100">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Task 4: 16-Week Multivariate Harmonic Demand Forecaster</h2>
+            <p class="text-xs text-slate-500">Trained on 104 historical weeks (R&sup2; = 0.9323, RMSE = $3,575.81, MAPE = 4.92%). Adjust confidence bounds or simulate an enterprise demand shock.</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-3">
+            <label for="ciToggle" class="text-xs font-semibold text-slate-600">Confidence Band:</label>
+            <select id="ciToggle" class="bg-slate-100 text-slate-800 text-xs font-bold px-3 py-1.5 rounded-lg border border-slate-300">
+              <option value="95">95% Confidence Interval</option>
+              <option value="80">80% Confidence Interval</option>
+            </select>
+            <label for="growthSlider" class="text-xs font-semibold text-slate-600">Scenario Multiplier: <span id="growthVal" class="text-blue-900 font-bold">+0%</span></label>
+            <input id="growthSlider" type="range" min="-15" max="25" value="0" step="5" class="w-28 accent-blue-900" />
+          </div>
+        </div>
+
+        <div class="relative h-80 mt-4">
+          <canvas id="forecastChart"></canvas>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 pt-4 border-t border-slate-100 text-center">
+          <div class="bg-slate-50 rounded-lg p-3">
+            <div class="text-xs text-slate-500 font-medium">Projected 16-Week Cumulative Demand</div>
+            <div id="simProjTotal" class="text-lg font-extrabold text-slate-900 mt-0.5">$1,399,797.36</div>
+          </div>
+          <div class="bg-slate-50 rounded-lg p-3">
+            <div class="text-xs text-slate-500 font-medium">Lower Confidence Bound</div>
+            <div id="simProjLow" class="text-lg font-extrabold text-teal-700 mt-0.5">$1,232,575.66</div>
+          </div>
+          <div class="bg-slate-50 rounded-lg p-3">
+            <div class="text-xs text-slate-500 font-medium">Upper Confidence Bound</div>
+            <div id="simProjHigh" class="text-lg font-extrabold text-amber-600 mt-0.5">$1,567,019.05</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formal Statistical Hypothesis Test Cards -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200 flex flex-col justify-between">
+          <div>
+            <span class="px-2.5 py-0.5 text-xs font-bold bg-teal-100 text-teal-800 rounded-full">Test 1 &bull; Welch's t-Test &amp; Mann-Whitney</span>
+            <h3 class="text-base font-bold text-slate-900 mt-2">A/B Checkout Flow Validation</h3>
+            <p class="text-xs text-slate-600 mt-1">Compares <strong>Variant B (AI Express Flow, n=2,555)</strong> against <strong>Control A (Standard Flow, n=2,645)</strong> on net order revenue.</p>
+            <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
+              <li><strong>Control A Mean:</strong> $1,085.84</li>
+              <li><strong>Variant B Mean:</strong> $1,234.01 (+$148.17 lift)</li>
+              <li><strong>t-Statistic:</strong> 11.1839 (p = 1.05 &times; 10<sup>&minus;28</sup>)</li>
+              <li><strong>95% CI of Lift:</strong> [$122.20, $174.13]</li>
+              <li><strong>Effect Size:</strong> Cohen's d = 0.310</li>
+            </ul>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-xs font-bold text-teal-700">
+            Decision: Reject H&#8320; — Deploy Variant B Globally
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200 flex flex-col justify-between">
+          <div>
+            <span class="px-2.5 py-0.5 text-xs font-bold bg-blue-100 text-blue-800 rounded-full">Test 2 &bull; One-Way Parametric ANOVA</span>
+            <h3 class="text-base font-bold text-slate-900 mt-2">Product Category Variance</h3>
+            <p class="text-xs text-slate-600 mt-1">Tests equality of mean order values across the 5 enterprise product lines (df = 4, 5195).</p>
+            <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
+              <li><strong>Enterprise Cloud Suite:</strong> $1,630.38</li>
+              <li><strong>Data Analytics Pro:</strong> $1,210.52</li>
+              <li><strong>CyberSecurity Shield:</strong> $1,072.90</li>
+              <li><strong>F-Statistic:</strong> 1,374.77 (p &lt; 10<sup>&minus;300</sup>)</li>
+              <li><strong>Eta-Squared (&eta;&sup2;):</strong> 0.5142 (51.4% variance)</li>
+            </ul>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-xs font-bold text-blue-800">
+            Decision: Reject H&#8320; — Tiered Account Bundling Validated
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200 flex flex-col justify-between">
+          <div>
+            <span class="px-2.5 py-0.5 text-xs font-bold bg-amber-100 text-amber-800 rounded-full">Test 3 &bull; Contingency &chi;&sup2; Test</span>
+            <h3 class="text-base font-bold text-slate-900 mt-2">Acquisition Channel vs. RFM Tier</h3>
+            <p class="text-xs text-slate-600 mt-1">Evaluates independence between B2B Acquisition Channel and Champion/Loyal conversion rate.</p>
+            <ul class="mt-3 space-y-1.5 text-xs text-slate-700">
+              <li><strong>Partner Referral High-Value Rate:</strong> 44.0%</li>
+              <li><strong>LinkedIn B2B Ads High-Value Rate:</strong> 37.8%</li>
+              <li><strong>Organic Search / Email:</strong> 28.5% / 21.5%</li>
+              <li><strong>Chi-Square (&chi;&sup2;):</strong> 29.60 (df = 3, p = 1.68 &times; 10<sup>&minus;6</sup>)</li>
+              <li><strong>Cram&eacute;r's V:</strong> 0.1649</li>
+            </ul>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-xs font-bold text-amber-700">
+            Decision: Reject H&#8320; — Reallocate Budget to Partner &amp; LinkedIn
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- TAB 2: TASK 2 EDA & CLEANING PIPELINE                               -->
+    <!-- =================================================================== -->
+    <section id="tab-task2" class="tab-panel hidden space-y-6">
+      <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200">
+        <h2 class="text-lg font-bold text-slate-900">Task 2: Exploratory Data Analysis &amp; Integrity Cleaning Audit</h2>
+        <p class="text-xs text-slate-500 mt-1">Comparison of uncurated raw transaction ingestion (5,285 rows) versus systematic imputation and 1.5&times;IQR Winsorized output (5,200 rows).</p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-5">
+          <div>
+            <h3 class="text-sm font-bold text-slate-700 mb-2">Data Abnormalities Diagnosed &amp; Remediated</h3>
+            <div class="relative h-64">
+              <canvas id="edaAnomalyChart"></canvas>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-slate-700 mb-2">Category Mean Revenue &amp; IQR Upper Fence ($ USD)</h3>
+            <div class="relative h-64">
+              <canvas id="edaCategoryChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- TAB 1: TASK 1 LINKEDIN COPY & STEP-BY-STEP UPLOAD GUIDE             -->
+    <!-- =================================================================== -->
+    <section id="tab-task1" class="tab-panel hidden space-y-6">
+      <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 pb-3 border-b border-slate-100">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Task 1: Ready-to-Post LinkedIn Announcement Captions</h2>
+            <p class="text-xs text-slate-500">Includes mandatory @Progree tag and #dataanalytics #python #tableau #progree hashtags.</p>
+          </div>
+          <button id="copyLinkedinBtn" type="button" class="bg-blue-900 hover:bg-blue-800 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
+            Copy Recommended LinkedIn Caption
+          </button>
+        </div>
+
+        <pre id="linkedinCopyBox" class="mt-4 bg-slate-900 text-slate-100 p-4 rounded-xl text-xs sm:text-sm whitespace-pre-wrap leading-relaxed font-sans">I am excited to share that I have officially accepted an offer to join @Progree as a Data Analytics Intern!
+
+Throughout this internship, my core learning goals are to:
+• Engineer automated data cleaning and exploratory data analysis (EDA) pipelines in Python and Pandas across large-scale industry datasets.
+• Build interactive RFM customer segmentation, cohort retention, and geospatial intelligence dashboards in Tableau and Power BI.
+• Execute formal inferential hypothesis tests (A/B testing, ANOVA, Chi-Square) and deploy time-series demand forecasting models to drive measurable business decisions.
+
+Grateful to the team at @Progree for this opportunity to turn complex data into clear strategic impact. Looking forward to sharing key milestones from my upcoming projects!
+
+#dataanalytics #python #tableau #progree</pre>
+      </div>
+
+      <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200">
+        <h3 class="text-base font-bold text-slate-900 mb-3">Complete 4-Task Online Upload Checklist</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+          <div class="p-4 rounded-lg bg-slate-50 border border-slate-200">
+            <div class="font-bold text-blue-900 mb-1">1. LinkedIn Post (Task 1)</div>
+            <p class="text-slate-600">Attach your high-resolution Official Internship Offer Letter (PNG/PDF), paste the caption above, make sure typing <code>@Progree</code> selects the official company page, and copy your live post URL.</p>
+          </div>
+          <div class="p-4 rounded-lg bg-slate-50 border border-slate-200">
+            <div class="font-bold text-blue-900 mb-1">2. GitHub Repository (Tasks 2 &amp; 4)</div>
+            <p class="text-slate-600">Create a public repo <code>progree-data-analytics-internship</code> and upload <code>progree_data_analytics_complete_notebook.ipynb</code>, <code>progree_tasks_2_3_4_analytics_pipeline.py</code>, and the cleaned CSV files.</p>
+          </div>
+          <div class="p-4 rounded-lg bg-slate-50 border border-slate-200">
+            <div class="font-bold text-blue-900 mb-1">3. Tableau Public / Power BI (Task 3)</div>
+            <p class="text-slate-600">Import <code>task3_rfm_customer_segments_tableau.csv</code> into Tableau Public or Power BI Desktop to publish your interactive map and RFM charts, or enable GitHub Pages on this HTML dashboard.</p>
+          </div>
+          <div class="p-4 rounded-lg bg-slate-50 border border-slate-200">
+            <div class="font-bold text-blue-900 mb-1">4. Final Portal Submission</div>
+            <p class="text-slate-600">Submit your LinkedIn post link, GitHub repo link, and Tableau Public / GitHub Pages dashboard link in the Progree internship portal along with the Executive PDF Report.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    // Grounded dataset from Task 2-4 pipeline execution
+    const RFM_SEGMENTS = [
+      { segment: "Champions", customers: 245, sharePct: 22.5, revenue: 2624125.78, revSharePct: 43.6, avgSpend: 10710.72, recency: 37.3, freq: 9.02 },
+      { segment: "Loyal Customers", customers: 123, sharePct: 11.3, revenue: 1005459.50, revSharePct: 16.7, avgSpend: 8174.47, recency: 101.9, freq: 7.28 },
+      { segment: "Potential Loyalists", customers: 140, sharePct: 12.9, revenue: 562715.78, revSharePct: 9.3, avgSpend: 4019.40, recency: 38.7, freq: 3.38 },
+      { segment: "At Risk (High Value)", customers: 149, sharePct: 13.7, revenue: 855436.47, revSharePct: 14.2, avgSpend: 5741.18, recency: 250.8, freq: 5.07 },
+      { segment: "Hibernating / Churned", customers: 432, sharePct: 39.7, revenue: 977204.49, revSharePct: 16.2, avgSpend: 2262.05, recency: 281.3, freq: 2.01 }
+    ];
+
+    const REGIONS = [
+      { region: "Dhaka Metro", country: "Bangladesh", lat: 23.8103, lon: 90.4125, tx: 1458, customers: 324, revenue: 1697471.19, aov: 1164.25, csat: 4.03 },
+      { region: "Chattogram Hub", country: "Bangladesh", lat: 22.3569, lon: 91.7832, tx: 729, customers: 147, revenue: 861983.55, aov: 1182.42, csat: 4.03 },
+      { region: "London EMEA", country: "United Kingdom", lat: 51.5072, lon: -0.1276, tx: 695, customers: 140, revenue: 820558.84, aov: 1180.66, csat: 3.99 },
+      { region: "New York North", country: "United States", lat: 40.7128, lon: -74.0060, tx: 692, customers: 131, revenue: 803482.63, aov: 1161.10, csat: 4.07 },
+      { region: "Singapore APAC", country: "Singapore", lat: 1.3521, lon: 103.8198, tx: 672, customers: 149, revenue: 765633.89, aov: 1139.34, csat: 3.97 },
+      { region: "Dubai MENA", country: "UAE", lat: 25.2048, lon: 55.2708, tx: 425, customers: 85, revenue: 476030.32, aov: 1120.07, csat: 3.98 },
+      { region: "Toronto Hub", country: "Canada", lat: 43.6532, lon: -79.3832, tx: 276, customers: 60, revenue: 310813.69, aov: 1126.14, csat: 4.00 },
+      { region: "Sydney ANZ", country: "Australia", lat: -33.8688, lon: 151.2093, tx: 253, customers: 53, revenue: 288967.91, aov: 1142.17, csat: 3.97 }
+    ];
+
+    const COHORTS = [
+      { q: "2024Q4", vals: [100.0, 46.1, 43.8, 40.2, 58.8, 50.0] },
+      { q: "2025Q1", vals: [100.0, 42.6, 41.2, 53.9, 50.4, 45.1] },
+      { q: "2025Q2", vals: [100.0, 30.7, 47.0, 41.0, 37.3, 42.2] },
+      { q: "2025Q3", vals: [100.0, 36.3, 35.4, 31.9, 35.4, 19.5] },
+      { q: "2025Q4", vals: [100.0, 40.2, 34.8, 34.8, 12.0, null] },
+      { q: "2026Q1", vals: [100.0, 27.9, 23.3, 14.0, null, null] }
+    ];
+
+    const FORECAST_SERIES = [
+      { w: "2026-08-03", type: "Hist", actual: 77689.02, pred: 73890.85, l80: 69145.6, u80: 78636.09, l95: 66633.77, u95: 81147.92 },
+      { w: "2026-08-17", type: "Hist", actual: 48643.12, pred: 48414.67, l80: 43669.43, u80: 53159.91, l95: 41157.6, u95: 55671.75 },
+      { w: "2026-08-31", type: "Hist", actual: 72618.57, pred: 75879.27, l80: 71134.03, u80: 80624.51, l95: 68622.2, u95: 83136.35 },
+      { w: "2026-09-14", type: "Hist", actual: 70050.49, pred: 62907.06, l80: 58161.82, u80: 67652.3, l95: 55649.98, u95: 70164.14 },
+      { w: "2026-09-28", type: "Hist", actual: 88430.37, pred: 91745.78, l80: 87000.54, u80: 96491.03, l95: 84488.71, u95: 99002.86 },
+      { w: "2026-10-12", type: "Hist", actual: 50402.23, pred: 46911.5, l80: 42166.26, u80: 51656.74, l95: 39654.42, u95: 54168.58 },
+      { w: "2026-10-26", type: "Hist", actual: 54521.71, pred: 57332.8, l80: 52587.56, u80: 62078.04, l95: 50075.72, u95: 64589.88 },
+      { w: "2026-11-02", type: "Fcst", actual: null, pred: 81336.91, l80: 75823.44, u80: 86850.38, l95: 72904.95, u95: 89768.88 },
+      { w: "2026-11-09", type: "Fcst", actual: null, pred: 83507.41, l80: 77793.38, u80: 89221.43, l95: 74768.73, u95: 92246.09 },
+      { w: "2026-11-16", type: "Fcst", actual: null, pred: 85479.9, l80: 79572.12, u80: 91387.68, l95: 76444.91, u95: 94514.89 },
+      { w: "2026-11-23", type: "Fcst", actual: null, pred: 87197.95, l80: 81102.58, u80: 93293.33, l95: 77876.07, u95: 96519.84 },
+      { w: "2026-11-30", type: "Fcst", actual: null, pred: 88614.57, l80: 82337.21, u80: 94891.93, l95: 79014.36, u95: 98214.78 },
+      { w: "2026-12-07", type: "Fcst", actual: null, pred: 89694.4, l80: 83240.18, u80: 96148.63, l95: 79823.71, u95: 99565.09 },
+      { w: "2026-12-14", type: "Fcst", actual: null, pred: 90415.39, l80: 83789.02, u80: 97041.75, l95: 80281.43, u95: 100549.34 },
+      { w: "2026-12-21", type: "Fcst", actual: null, pred: 90769.7, l80: 83975.55, u80: 97563.85, l95: 80379.14, u95: 101160.25 },
+      { w: "2026-12-28", type: "Fcst", actual: null, pred: 90763.98, l80: 83806.09, u80: 97721.86, l95: 80123.01, u95: 101404.94 },
+      { w: "2027-01-04", type: "Fcst", actual: null, pred: 90418.78, l80: 83300.92, u80: 97536.64, l95: 79533.16, u95: 101304.4 },
+      { w: "2027-01-11", type: "Fcst", actual: null, pred: 89767.39, l80: 82493.07, u80: 97041.7, l95: 78642.5, u95: 100892.28 },
+      { w: "2027-01-18", type: "Fcst", actual: null, pred: 88853.92, l80: 81426.44, u80: 96281.4, l95: 77494.79, u95: 100213.04 },
+      { w: "2027-01-25", type: "Fcst", actual: null, pred: 87730.94, l80: 80153.4, u80: 95308.48, l95: 76142.32, u95: 99319.57 },
+      { w: "2027-02-01", type: "Fcst", actual: null, pred: 86456.69, l80: 78731.99, u80: 94181.38, l95: 74643.02, u95: 98270.35 },
+      { w: "2027-02-08", type: "Fcst", actual: null, pred: 85092.03, l80: 77222.94, u80: 92961.12, l95: 73057.53, u95: 97126.53 },
+      { w: "2027-02-15", type: "Fcst", actual: null, pred: 83697.41, l80: 75686.52, u80: 91708.3, l95: 71446.05, u95: 95948.77 }
+    ];
+
+    let state = {
+      region: "ALL",
+      segment: "ALL",
+      ciLevel: "95",
+      growthPct: 0
+    };
+
+    let rfmChartInst = null;
+    let geoChartInst = null;
+    let forecastChartInst = null;
+    let edaAnomalyChartInst = null;
+    let edaCatChartInst = null;
+
+    function showToast(msg) {
+      const banner = document.getElementById("toastBanner");
+      const text = document.getElementById("toastMessage");
+      text.textContent = msg;
+      banner.classList.remove("hidden");
+      setTimeout(() => banner.classList.add("hidden"), 3000);
+    }
+
+    function getRegionRatio() {
+      if (state.region === "ALL") return 1.0;
+      const found = REGIONS.find(r => r.region === state.region);
+      return found ? (found.revenue / 6024942.02) : 1.0;
+    }
+
+    function renderRfmTableAndKpis() {
+      const ratio = getRegionRatio();
+      const regObj = REGIONS.find(r => r.region === state.region);
+
+      const totRev = state.region === "ALL" ? 6024942.02 : regObj.revenue;
+      const totCust = state.region === "ALL" ? 1089 : regObj.customers;
+      const totTx = state.region === "ALL" ? 5200 : regObj.tx;
+
+      document.getElementById("kpiRevenue").textContent = "$" + Math.round(totRev).toLocaleString();
+      document.getElementById("kpiRevSub").textContent = `Across ${totTx.toLocaleString()} verified orders (${state.region === "ALL" ? "Global" : state.region})`;
+      document.getElementById("kpiCustomers").textContent = totCust.toLocaleString();
+
+      const tbody = document.getElementById("rfmTableBody");
+      tbody.innerHTML = "";
+      const filteredSegs = state.segment === "ALL" ? RFM_SEGMENTS : RFM_SEGMENTS.filter(s => s.segment === state.segment);
+
+      filteredSegs.forEach(s => {
+        const scaledCust = Math.max(1, Math.round(s.customers * ratio));
+        const scaledRev = s.revenue * ratio;
+        const tr = document.createElement("tr");
+        tr.className = "hover:bg-slate-50 transition";
+        tr.innerHTML = `
+          <td class="py-2.5 px-3 font-semibold text-slate-900">${s.segment}</td>
+          <td class="py-2.5 px-2 text-right font-mono">${scaledCust} (${s.sharePct}%)</td>
+          <td class="py-2.5 px-2 text-right font-mono font-semibold text-blue-900">$${Math.round(scaledRev).toLocaleString()}</td>
+          <td class="py-2.5 px-2 text-right font-mono">$${s.avgSpend.toLocaleString()}</td>
+          <td class="py-2.5 px-3 text-right font-mono text-slate-500">${s.recency}d</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      if (rfmChartInst) {
+        rfmChartInst.data.labels = filteredSegs.map(s => s.segment);
+        rfmChartInst.data.datasets[0].data = filteredSegs.map(s => Math.round(s.revenue * ratio));
+        rfmChartInst.update();
+      }
+
+      if (geoChartInst) {
+        geoChartInst.data.datasets[0].backgroundColor = REGIONS.map(r =>
+          (state.region === "ALL" || r.region === state.region) ? "rgba(15, 118, 110, 0.78)" : "rgba(148, 163, 184, 0.25)"
+        );
+        geoChartInst.update();
+      }
+    }
+
+    function renderCohortGrid() {
+      const container = document.getElementById("cohortGrid");
+      container.innerHTML = "";
+      const header = document.createElement("div");
+      header.className = "grid grid-cols-7 gap-1 font-bold text-slate-500 text-center pb-1";
+      header.innerHTML = `<div>Cohort</div><div>Q+0</div><div>Q+1</div><div>Q+2</div><div>Q+3</div><div>Q+4</div><div>Q+5</div>`;
+      container.appendChild(header);
+
+      COHORTS.forEach(row => {
+        const line = document.createElement("div");
+        line.className = "grid grid-cols-7 gap-1 items-center";
+        let cellsHtml = `<div class="font-bold text-slate-800">${row.q}</div>`;
+        row.vals.forEach(v => {
+          if (v === null) {
+            cellsHtml += `<div class="py-2 text-center rounded bg-slate-100 text-slate-300">&mdash;</div>`;
+          } else {
+            const bg = v >= 80 ? "bg-blue-900 text-white" :
+                       v >= 45 ? "bg-teal-700 text-white" :
+                       v >= 35 ? "bg-teal-500 text-white" :
+                       "bg-teal-100 text-teal-900";
+            cellsHtml += `<div class="heatmap-cell py-2 text-center rounded font-mono font-bold ${bg}">${v.toFixed(1)}%</div>`;
+          }
+        });
+        line.innerHTML = cellsHtml;
+        container.appendChild(line);
+      });
+    }
+
+    function updateForecastChart() {
+      const mult = 1.0 + (state.growthPct / 100.0);
+      const is95 = state.ciLevel === "95";
+
+      const labels = FORECAST_SERIES.map(d => d.w);
+      const actuals = FORECAST_SERIES.map(d => d.actual);
+      const preds = FORECAST_SERIES.map(d => d.type === "Fcst" ? +(d.pred * mult).toFixed(2) : d.pred);
+      const lowers = FORECAST_SERIES.map(d => {
+        const val = is95 ? d.l95 : d.l80;
+        return d.type === "Fcst" ? +(val * mult).toFixed(2) : val;
+      });
+      const uppers = FORECAST_SERIES.map(d => {
+        const val = is95 ? d.u95 : d.u80;
+        return d.type === "Fcst" ? +(val * mult).toFixed(2) : val;
+      });
+
+      const fcstOnly = FORECAST_SERIES.filter(d => d.type === "Fcst");
+      const sumPred = fcstOnly.reduce((a, b) => a + b.pred * mult, 0);
+      const sumLow = fcstOnly.reduce((a, b) => a + (is95 ? b.l95 : b.l80) * mult, 0);
+      const sumHigh = fcstOnly.reduce((a, b) => a + (is95 ? b.u95 : b.u80) * mult, 0);
+
+      document.getElementById("simProjTotal").textContent = "$" + sumPred.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      document.getElementById("simProjLow").textContent = "$" + sumLow.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      document.getElementById("simProjHigh").textContent = "$" + sumHigh.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      document.getElementById("kpiForecast").textContent = "$" + Math.round(sumPred).toLocaleString();
+
+      if (forecastChartInst) {
+        forecastChartInst.data.labels = labels;
+        forecastChartInst.data.datasets[0].data = actuals;
+        forecastChartInst.data.datasets[1].data = preds;
+        forecastChartInst.data.datasets[2].data = uppers;
+        forecastChartInst.data.datasets[3].data = lowers;
+        forecastChartInst.update();
+      }
+    }
+
+    function initCharts() {
+      const ctxRfm = document.getElementById("rfmChart").getContext("2d");
+      rfmChartInst = new Chart(ctxRfm, {
+        type: "bar",
+        data: {
+          labels: RFM_SEGMENTS.map(s => s.segment),
+          datasets: [{
+            label: "Net Revenue ($ USD)",
+            data: RFM_SEGMENTS.map(s => s.revenue),
+            backgroundColor: ["#0f766e", "#1e3a8a", "#2563eb", "#d97706", "#64748b"],
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            y: { ticks: { callback: v => "$" + (v / 1000).toLocaleString() + "K" } }
+          }
+        }
+      });
+
+      const ctxGeo = document.getElementById("geoChart").getContext("2d");
+      geoChartInst = new Chart(ctxGeo, {
+        type: "bubble",
+        data: {
+          datasets: [{
+            label: "Regional Hubs (Lon, Lat, Revenue Size)",
+            data: REGIONS.map(r => ({
+              x: r.lon,
+              y: r.lat,
+              r: Math.max(7, Math.sqrt(r.revenue) / 55),
+              region: r.region,
+              rev: r.revenue,
+              cust: r.customers
+            })),
+            backgroundColor: "rgba(15, 118, 110, 0.78)",
+            borderColor: "#1e3a8a",
+            borderWidth: 1.5
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: ctx => {
+                  const raw = ctx.raw;
+                  return `${raw.region}: $${Math.round(raw.rev).toLocaleString()} (${raw.cust} accounts)`;
+                }
+              }
+            }
+          },
+          scales: {
+            x: { title: { display: true, text: "Longitude (°E / °W)" }, min: -100, max: 170 },
+            y: { title: { display: true, text: "Latitude (°N / °S)" }, min: -45, max: 65 }
+          }
+        }
+      });
+
+      const ctxFcst = document.getElementById("forecastChart").getContext("2d");
+      forecastChartInst = new Chart(ctxFcst, {
+        type: "line",
+        data: {
+          labels: FORECAST_SERIES.map(d => d.w),
+          datasets: [
+            {
+              label: "Actual Historical Revenue",
+              data: FORECAST_SERIES.map(d => d.actual),
+              borderColor: "#1e3a8a",
+              backgroundColor: "#1e3a8a",
+              borderWidth: 2.5,
+              tension: 0.25
+            },
+            {
+              label: "Model Fit & 16-Week Forecast",
+              data: FORECAST_SERIES.map(d => d.pred),
+              borderColor: "#d97706",
+              backgroundColor: "#d97706",
+              borderDash: [4, 3],
+              borderWidth: 2.2,
+              tension: 0.25
+            },
+            {
+              label: "Upper Confidence Bound",
+              data: FORECAST_SERIES.map(d => d.u95),
+              borderColor: "rgba(245, 158, 11, 0.35)",
+              backgroundColor: "rgba(245, 158, 11, 0.16)",
+              fill: "+1",
+              pointRadius: 0,
+              tension: 0.25
+            },
+            {
+              label: "Lower Confidence Bound",
+              data: FORECAST_SERIES.map(d => d.l95),
+              borderColor: "rgba(245, 158, 11, 0.35)",
+              backgroundColor: "transparent",
+              pointRadius: 0,
+              tension: 0.25
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: { ticks: { callback: v => "$" + Math.round(v / 1000) + "K" } }
+          }
+        }
+      });
+
+      const ctxAnom = document.getElementById("edaAnomalyChart").getContext("2d");
+      edaAnomalyChartInst = new Chart(ctxAnom, {
+        type: "bar",
+        data: {
+          labels: ["Missing Discount", "Missing CSAT", "Missing Unit $", "Missing Ship $", "IQR Outliers", "Duplicate Rows", "Neg. Quantity"],
+          datasets: [{
+            label: "Records Remediated",
+            data: [333, 289, 236, 202, 122, 85, 19],
+            backgroundColor: ["#1e3a8a", "#1d4ed8", "#2563eb", "#3b82f6", "#dc2626", "#d97706", "#7c3aed"],
+            borderRadius: 5
+          }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+      });
+
+      const ctxCat = document.getElementById("edaCategoryChart").getContext("2d");
+      edaCatChartInst = new Chart(ctxCat, {
+        type: "bar",
+        data: {
+          labels: ["Cloud Suite", "Analytics Pro", "CyberSecurity", "FinTech API", "IoT Edge"],
+          datasets: [
+            {
+              label: "Cleaned Mean Order Revenue ($)",
+              data: [1630.38, 1210.52, 1072.90, 756.15, 584.27],
+              backgroundColor: "#0f766e",
+              borderRadius: 5
+            },
+            {
+              label: "Unit Price 1.5x IQR Upper Fence ($)",
+              data: [549.40, 410.82, 362.26, 255.86, 192.60],
+              backgroundColor: "#1e3a8a",
+              borderRadius: 5
+            }
+          ]
+        },
+        options: { responsive: true, maintainAspectRatio: false }
+      });
+    }
+
+    // Wire interactive controls
+    window.addEventListener("DOMContentLoaded", () => {
+      renderCohortGrid();
+      initCharts();
+      renderRfmTableAndKpis();
+      updateForecastChart();
+
+      // Tab switching
+      document.querySelectorAll(".nav-tab").forEach(btn => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".nav-tab").forEach(b => {
+            b.classList.remove("tab-active");
+            b.classList.add("text-slate-200");
+          });
+          btn.classList.add("tab-active");
+          btn.classList.remove("text-slate-200");
+
+          const targetId = btn.getAttribute("data-tab");
+          document.querySelectorAll(".tab-panel").forEach(p => {
+            p.classList.toggle("hidden", p.id !== targetId);
+          });
+        });
+      });
+
+      // Region filter
+      document.getElementById("regionFilter").addEventListener("change", e => {
+        state.region = e.target.value;
+        renderRfmTableAndKpis();
+      });
+
+      // Segment pills
+      document.querySelectorAll(".seg-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".seg-btn").forEach(b => {
+            b.className = "seg-btn bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3 py-1.5 rounded-full";
+          });
+          btn.className = "seg-btn bg-blue-900 text-white text-xs font-semibold px-3 py-1.5 rounded-full";
+          state.segment = btn.getAttribute("data-seg");
+          renderRfmTableAndKpis();
+        });
+      });
+
+      // Confidence Interval & Growth slider
+      document.getElementById("ciToggle").addEventListener("change", e => {
+        state.ciLevel = e.target.value;
+        updateForecastChart();
+      });
+
+      document.getElementById("growthSlider").addEventListener("input", e => {
+        state.growthPct = parseInt(e.target.value, 10) || 0;
+        const sign = state.growthPct >= 0 ? "+" : "";
+        document.getElementById("growthVal").textContent = `${sign}${state.growthPct}%`;
+        updateForecastChart();
+      });
+
+      // Export CSV button
+      document.getElementById("exportCsvBtn").addEventListener("click", () => {
+        const ratio = getRegionRatio();
+        const rows = [["Segment", "Region_Filter", "Customers", "Total_Revenue_USD", "Avg_Spend_USD", "Avg_Recency_Days"]];
+        RFM_SEGMENTS.forEach(s => {
+          rows.push([s.segment, state.region, Math.round(s.customers * ratio), (s.revenue * ratio).toFixed(2), s.avgSpend.toFixed(2), s.recency]);
+        });
+        const csvContent = rows.map(r => r.join(",")).join("\n");
+        const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `progree_rfm_export_${state.region.replace(/\s+/g, "_").toLowerCase()}.csv`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        showToast("Exported filtered RFM segment summary CSV!");
+      });
+
+      // Copy LinkedIn caption
+      document.getElementById("copyLinkedinBtn").addEventListener("click", () => {
+        const text = document.getElementById("linkedinCopyBox").textContent;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(() => showToast("LinkedIn announcement copied to clipboard!")).catch(() => {
+            fallbackCopy(text);
+          });
+        } else {
+          fallbackCopy(text);
+        }
+      });
+
+      function fallbackCopy(text) {
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand("copy"); } catch (e) {}
+        document.body.removeChild(ta);
+        showToast("LinkedIn announcement copied to clipboard!");
+      }
+    });
+  </script>
+</body>
+</html>
