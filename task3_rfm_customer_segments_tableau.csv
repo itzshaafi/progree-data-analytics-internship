@@ -1,0 +1,1090 @@
+customer_id,recency_days,frequency_orders,monetary_total,avg_order_value,avg_csat,region,country,latitude,longitude,acquisition_channel,experiment_group,first_purchase_date,last_purchase_date,R_Score,F_Score,M_Score,RFM_Score,RFM_Index,customer_segment
+CUST-10000,40,5,8782.05,1756.41,3.72,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-07-15,2026-09-26,4,3,5,435,12,Potential Loyalists
+CUST-10001,177,1,1338.97,1338.97,3.2,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Control_A,2026-05-12,2026-05-12,2,1,1,211,4,Hibernating / Churned
+CUST-10002,15,4,3808.17,952.04,3.92,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-01-03,2026-10-21,5,3,3,533,11,Potential Loyalists
+CUST-10003,4,2,1454.6,727.3,3.5,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2026-02-12,2026-11-01,5,1,1,511,7,Hibernating / Churned
+CUST-10005,397,2,3209.99,1605.0,4.15,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-05-20,2025-10-04,1,1,2,112,4,Hibernating / Churned
+CUST-10006,97,4,6327.26,1581.82,4.55,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-11-29,2026-07-31,3,3,4,334,10,Hibernating / Churned
+CUST-10007,121,7,5689.43,812.78,3.79,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2025-01-11,2026-07-07,3,4,4,344,11,Loyal Customers
+CUST-10008,186,1,1396.96,1396.96,4.5,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2026-05-03,2026-05-03,2,1,1,211,4,Hibernating / Churned
+CUST-10009,206,3,2617.42,872.47,3.8,New York North,United States,40.7128,-74.006,Email Campaign,Control_A,2025-07-11,2026-04-13,2,2,2,222,6,Hibernating / Churned
+CUST-10010,50,6,5796.39,966.06,4.03,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-12-13,2026-09-16,4,4,4,444,12,Champions
+CUST-10011,678,1,559.1,559.1,4.0,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Control_A,2024-12-27,2024-12-27,1,1,1,111,3,Hibernating / Churned
+CUST-10012,12,6,5514.78,919.13,4.07,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-08-15,2026-10-24,5,4,4,544,13,Champions
+CUST-10013,59,12,12386.71,1032.23,3.73,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-01-28,2026-09-07,4,5,5,455,14,Champions
+CUST-10014,406,1,586.44,586.44,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-09-25,2025-09-25,1,1,1,111,3,Hibernating / Churned
+CUST-10015,83,2,3302.06,1651.03,4.5,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-02-07,2026-08-14,3,1,2,312,6,Hibernating / Churned
+CUST-10016,504,1,1286.97,1286.97,4.2,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-06-19,2025-06-19,1,1,1,111,3,Hibernating / Churned
+CUST-10017,61,2,1853.97,926.98,4.15,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-01-08,2026-09-05,4,1,1,411,6,Hibernating / Churned
+CUST-10018,199,1,2225.38,2225.38,3.9,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2026-04-20,2026-04-20,2,1,2,212,5,Hibernating / Churned
+CUST-10020,177,1,627.98,627.98,4.7,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2026-05-12,2026-05-12,2,1,1,211,4,Hibernating / Churned
+CUST-10021,70,4,3986.9,996.72,3.97,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-12-03,2026-08-27,4,3,3,433,10,Potential Loyalists
+CUST-10022,153,9,16204.32,1800.48,4.43,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2024-12-27,2026-06-05,3,5,5,355,13,Loyal Customers
+CUST-10023,211,3,2446.94,815.65,3.23,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2025-05-10,2026-04-08,2,2,2,222,6,Hibernating / Churned
+CUST-10024,101,5,4858.55,971.71,3.76,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-05-06,2026-07-27,3,3,3,333,9,Hibernating / Churned
+CUST-10025,9,41,52609.79,1283.17,4.27,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2024-12-15,2026-10-27,5,5,5,555,15,Champions
+CUST-10027,37,6,6920.57,1153.43,4.2,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-06-19,2026-09-29,4,4,4,444,12,Champions
+CUST-10028,264,1,486.55,486.55,4.3,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2026-02-14,2026-02-14,2,1,1,211,4,Hibernating / Churned
+CUST-10029,82,4,7082.15,1770.54,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-20,2026-08-15,3,3,4,334,10,Hibernating / Churned
+CUST-10031,181,5,5027.31,1005.46,4.28,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-06-26,2026-05-08,2,3,3,233,8,At Risk (High Value)
+CUST-10032,401,2,2389.22,1194.61,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-09-01,2025-09-30,1,1,2,112,4,Hibernating / Churned
+CUST-10033,175,2,1517.76,758.88,4.6,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2024-12-06,2026-05-14,2,1,1,211,4,Hibernating / Churned
+CUST-10034,343,1,1223.16,1223.16,4.2,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Variant_B,2025-11-27,2025-11-27,1,1,1,111,3,Hibernating / Churned
+CUST-10035,35,5,8084.03,1616.81,3.36,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-01-09,2026-10-01,5,3,4,534,12,Potential Loyalists
+CUST-10036,37,8,7604.02,950.5,3.7,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2024-11-06,2026-09-29,4,5,4,454,13,Champions
+CUST-10037,27,10,11635.47,1163.55,3.92,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-12-23,2026-10-09,5,5,5,555,15,Champions
+CUST-10038,72,4,3814.94,953.74,4.55,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2025-01-29,2026-08-25,4,3,3,433,10,Potential Loyalists
+CUST-10039,124,8,8290.63,1036.33,3.61,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-02-05,2026-07-04,3,5,4,354,12,Loyal Customers
+CUST-10040,614,1,2024.85,2024.85,4.5,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-03-01,2025-03-01,1,1,2,112,4,Hibernating / Churned
+CUST-10041,5,3,5294.32,1764.77,3.6,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-06-28,2026-10-31,5,2,3,523,10,Potential Loyalists
+CUST-10042,71,9,12331.93,1370.21,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-11-05,2026-08-26,4,5,5,455,14,Champions
+CUST-10043,84,4,3757.28,939.32,3.62,Toronto Hub,Canada,43.6532,-79.3832,Email Campaign,Variant_B,2024-11-26,2026-08-13,3,3,3,333,9,Hibernating / Churned
+CUST-10044,125,8,7915.55,989.44,3.72,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-11-17,2026-07-03,3,5,4,354,12,Loyal Customers
+CUST-10045,34,4,3941.94,985.48,4.12,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2024-11-06,2026-10-02,5,3,3,533,11,Potential Loyalists
+CUST-10047,21,6,5600.94,933.49,4.08,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2024-12-06,2026-10-15,5,4,4,544,13,Champions
+CUST-10048,13,9,10186.25,1131.81,3.84,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2025-02-10,2026-10-23,5,5,5,555,15,Champions
+CUST-10049,62,10,11425.08,1142.51,3.7,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-01-13,2026-09-04,4,5,5,455,14,Champions
+CUST-10050,176,2,1009.38,504.69,3.5,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Control_A,2025-12-11,2026-05-13,2,1,1,211,4,Hibernating / Churned
+CUST-10051,9,6,5943.43,990.57,3.97,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2024-12-18,2026-10-27,5,4,4,544,13,Champions
+CUST-10052,201,5,5349.86,1069.97,4.48,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-10-15,2026-04-18,2,3,3,233,8,At Risk (High Value)
+CUST-10053,679,1,621.25,621.25,3.5,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2024-12-26,2024-12-26,1,1,1,111,3,Hibernating / Churned
+CUST-10054,106,11,11720.8,1065.53,3.99,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-03-15,2026-07-22,3,5,5,355,13,Loyal Customers
+CUST-10055,195,1,710.77,710.77,3.8,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Control_A,2026-04-24,2026-04-24,2,1,1,211,4,Hibernating / Churned
+CUST-10056,106,5,5651.66,1130.33,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-01-15,2026-07-22,3,3,4,334,10,Hibernating / Churned
+CUST-10058,13,3,3001.92,1000.64,4.13,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-02-20,2026-10-23,5,2,2,522,9,Potential Loyalists
+CUST-10059,71,10,10628.35,1062.84,3.46,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-11-04,2026-08-26,4,5,5,455,14,Champions
+CUST-10060,7,8,10239.02,1279.88,4.06,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-11-30,2026-10-29,5,5,5,555,15,Champions
+CUST-10061,91,3,4526.99,1509.0,3.87,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2026-01-15,2026-08-06,3,2,3,323,8,Hibernating / Churned
+CUST-10062,32,9,11306.93,1256.33,4.34,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2025-01-07,2026-10-04,5,5,5,555,15,Champions
+CUST-10063,314,8,12074.65,1509.33,4.01,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-02-18,2025-12-26,1,5,5,155,11,At Risk (High Value)
+CUST-10064,74,2,2918.06,1459.03,4.25,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2025-04-21,2026-08-23,4,1,2,412,7,Hibernating / Churned
+CUST-10065,233,4,4002.79,1000.7,3.68,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-03-04,2026-03-17,2,3,3,233,8,At Risk (High Value)
+CUST-10066,202,1,1605.79,1605.79,3.6,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2026-04-17,2026-04-17,2,1,1,211,4,Hibernating / Churned
+CUST-10067,156,5,5586.84,1117.37,4.1,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2024-12-01,2026-06-02,3,3,4,334,10,Hibernating / Churned
+CUST-10068,6,5,5851.32,1170.26,3.92,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-12-09,2026-10-30,5,3,4,534,12,Potential Loyalists
+CUST-10069,457,1,537.33,537.33,3.9,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Variant_B,2025-08-05,2025-08-05,1,1,1,111,3,Hibernating / Churned
+CUST-10070,686,1,1519.4,1519.4,3.6,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2024-12-19,2024-12-19,1,1,1,111,3,Hibernating / Churned
+CUST-10071,196,2,1282.17,641.08,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2026-01-28,2026-04-23,2,1,1,211,4,Hibernating / Churned
+CUST-10072,71,7,7892.16,1127.45,4.44,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-11-08,2026-08-26,4,4,4,444,12,Champions
+CUST-10073,417,2,1610.27,805.14,4.25,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-04-15,2025-09-14,1,1,1,111,3,Hibernating / Churned
+CUST-10074,109,6,8450.39,1408.4,4.27,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2024-12-07,2026-07-19,3,4,5,345,12,Loyal Customers
+CUST-10075,112,5,6014.44,1202.89,4.22,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-09-09,2026-07-16,3,3,4,334,10,Hibernating / Churned
+CUST-10076,8,7,6448.53,921.22,4.04,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-03-31,2026-10-28,5,4,4,544,13,Champions
+CUST-10077,258,3,2086.93,695.64,4.33,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-02-22,2026-02-20,2,2,2,222,6,Hibernating / Churned
+CUST-10078,116,4,3173.95,793.49,3.95,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-02-16,2026-07-12,3,3,2,332,8,Hibernating / Churned
+CUST-10079,201,5,4400.01,880.0,4.26,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-03-20,2026-04-18,2,3,3,233,8,At Risk (High Value)
+CUST-10080,72,6,7056.74,1176.12,3.78,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2025-01-30,2026-08-25,4,4,4,444,12,Champions
+CUST-10081,138,2,2898.97,1449.48,4.75,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-11-20,2026-06-20,3,1,2,312,6,Hibernating / Churned
+CUST-10082,41,6,6826.65,1137.77,4.28,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2024-11-15,2026-09-25,4,4,4,444,12,Champions
+CUST-10083,107,4,4383.61,1095.9,3.75,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-05-26,2026-07-21,3,3,3,333,9,Hibernating / Churned
+CUST-10084,193,3,2929.07,976.36,4.03,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2026-03-14,2026-04-26,2,2,2,222,6,Hibernating / Churned
+CUST-10085,369,1,1978.1,1978.1,2.8,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-11-01,2025-11-01,1,1,2,112,4,Hibernating / Churned
+CUST-10086,423,1,857.08,857.08,3.4,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-09-08,2025-09-08,1,1,1,111,3,Hibernating / Churned
+CUST-10087,117,4,8479.87,2119.97,4.75,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-03-24,2026-07-11,3,3,5,335,11,Hibernating / Churned
+CUST-10088,71,15,15153.67,1010.24,4.19,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2024-12-07,2026-08-26,4,5,5,455,14,Champions
+CUST-10089,36,4,5452.37,1363.09,4.22,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-03-07,2026-09-30,5,3,3,533,11,Potential Loyalists
+CUST-10090,370,1,1517.6,1517.6,3.2,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-10-31,2025-10-31,1,1,1,111,3,Hibernating / Churned
+CUST-10091,301,5,4655.93,931.19,4.04,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-06-22,2026-01-08,1,3,3,133,7,At Risk (High Value)
+CUST-10092,30,14,19871.33,1419.38,4.35,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-01-17,2026-10-06,5,5,5,555,15,Champions
+CUST-10093,40,6,6924.6,1154.1,3.8,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-10-29,2026-09-26,4,4,4,444,12,Champions
+CUST-10094,34,6,9751.44,1625.24,4.25,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2024-12-30,2026-10-02,5,4,5,545,14,Champions
+CUST-10095,10,3,2201.57,733.86,3.83,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-05-06,2026-10-26,5,2,2,522,9,Potential Loyalists
+CUST-10097,73,6,5524.79,920.8,4.28,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2024-11-24,2026-08-24,4,4,4,444,12,Champions
+CUST-10098,452,3,2848.84,949.61,4.27,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-07-19,2025-08-10,1,2,2,122,5,Hibernating / Churned
+CUST-10099,16,5,4353.91,870.78,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-04-10,2026-10-20,5,3,3,533,11,Potential Loyalists
+CUST-10101,31,7,6202.65,886.09,4.49,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2024-11-07,2026-10-05,5,4,4,544,13,Champions
+CUST-10103,154,5,6722.12,1344.42,4.48,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2024-12-16,2026-06-04,3,3,4,334,10,Hibernating / Churned
+CUST-10104,107,4,4905.37,1226.34,3.5,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Control_A,2025-11-17,2026-07-21,3,3,3,333,9,Hibernating / Churned
+CUST-10105,17,2,1727.59,863.8,4.05,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2026-03-21,2026-10-19,5,1,1,511,7,Hibernating / Churned
+CUST-10107,59,3,4661.18,1553.73,4.03,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-12-29,2026-09-07,4,2,3,423,9,Potential Loyalists
+CUST-10108,40,4,4268.82,1067.21,3.82,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-08-25,2026-09-26,4,3,3,433,10,Potential Loyalists
+CUST-10109,40,4,4359.16,1089.79,3.8,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2026-02-12,2026-09-26,4,3,3,433,10,Potential Loyalists
+CUST-10110,294,4,4872.3,1218.08,3.9,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-06-06,2026-01-15,2,3,3,233,8,At Risk (High Value)
+CUST-10111,148,2,2122.5,1061.25,4.25,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-11-09,2026-06-10,3,1,2,312,6,Hibernating / Churned
+CUST-10113,42,3,4409.3,1469.77,4.2,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2024-12-15,2026-09-24,4,2,3,423,9,Potential Loyalists
+CUST-10114,39,13,17745.99,1365.08,4.25,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-03-16,2026-09-27,4,5,5,455,14,Champions
+CUST-10115,78,5,5397.37,1079.47,4.46,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Variant_B,2025-01-10,2026-08-19,4,3,3,433,10,Potential Loyalists
+CUST-10116,455,1,530.8,530.8,4.6,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-08-07,2025-08-07,1,1,1,111,3,Hibernating / Churned
+CUST-10117,166,4,7305.66,1826.42,4.03,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-12-07,2026-05-23,2,3,4,234,9,At Risk (High Value)
+CUST-10118,401,3,2825.56,941.85,4.53,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2025-02-02,2025-09-30,1,2,2,122,5,Hibernating / Churned
+CUST-10119,581,1,1143.55,1143.55,4.7,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-04-03,2025-04-03,1,1,1,111,3,Hibernating / Churned
+CUST-10120,269,3,2802.44,934.15,4.7,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-05-17,2026-02-09,2,2,2,222,6,Hibernating / Churned
+CUST-10121,278,3,4644.33,1548.11,3.6,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-11-20,2026-01-31,2,2,3,223,7,Hibernating / Churned
+CUST-10122,103,3,3223.92,1074.64,4.27,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2024-12-06,2026-07-25,3,2,2,322,7,Hibernating / Churned
+CUST-10123,116,4,3970.52,992.63,3.7,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-11-30,2026-07-12,3,3,3,333,9,Hibernating / Churned
+CUST-10124,112,1,1042.1,1042.1,3.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2026-07-16,2026-07-16,3,1,1,311,5,Hibernating / Churned
+CUST-10125,82,13,10874.37,836.49,4.09,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-05-10,2026-08-15,3,5,5,355,13,Loyal Customers
+CUST-10126,121,5,3865.14,773.03,3.74,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-01-09,2026-07-07,3,3,3,333,9,Hibernating / Churned
+CUST-10127,214,6,7018.3,1169.72,4.17,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Variant_B,2025-01-21,2026-04-05,2,4,4,244,10,At Risk (High Value)
+CUST-10128,32,11,11657.12,1059.74,3.69,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-06-17,2026-10-04,5,5,5,555,15,Champions
+CUST-10129,40,3,4672.19,1557.4,4.03,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2024-11-20,2026-09-26,4,2,3,423,9,Potential Loyalists
+CUST-10130,56,5,5455.09,1091.02,4.14,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2024-12-05,2026-09-10,4,3,3,433,10,Potential Loyalists
+CUST-10131,216,5,5273.04,1054.61,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-01-28,2026-04-03,2,3,3,233,8,At Risk (High Value)
+CUST-10133,467,2,1255.84,627.92,4.3,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2025-06-07,2025-07-26,1,1,1,111,3,Hibernating / Churned
+CUST-10134,576,1,1324.69,1324.69,4.6,Toronto Hub,Canada,43.6532,-79.3832,Email Campaign,Variant_B,2025-04-08,2025-04-08,1,1,1,111,3,Hibernating / Churned
+CUST-10135,17,5,5764.28,1152.86,4.14,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2026-02-09,2026-10-19,5,3,4,534,12,Potential Loyalists
+CUST-10136,30,11,16414.07,1492.19,4.06,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2024-11-06,2026-10-06,5,5,5,555,15,Champions
+CUST-10137,17,11,16530.18,1502.74,3.65,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2024-11-16,2026-10-19,5,5,5,555,15,Champions
+CUST-10138,569,1,1126.3,1126.3,4.4,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2025-04-15,2025-04-15,1,1,1,111,3,Hibernating / Churned
+CUST-10139,12,6,8008.05,1334.68,4.55,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Variant_B,2024-11-21,2026-10-24,5,4,4,544,13,Champions
+CUST-10140,34,14,15665.5,1118.96,4.29,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Variant_B,2024-12-10,2026-10-02,5,5,5,555,15,Champions
+CUST-10141,266,2,3467.99,1734.0,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-31,2026-02-12,2,1,2,212,5,Hibernating / Churned
+CUST-10142,677,1,1748.78,1748.78,4.2,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Variant_B,2024-12-28,2024-12-28,1,1,1,111,3,Hibernating / Churned
+CUST-10143,144,4,4057.5,1014.38,4.35,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-07-20,2026-06-14,3,3,3,333,9,Hibernating / Churned
+CUST-10144,44,1,1173.29,1173.29,4.1,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2026-09-22,2026-09-22,4,1,1,411,6,Hibernating / Churned
+CUST-10145,328,1,1789.41,1789.41,3.5,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-12-12,2025-12-12,1,1,1,111,3,Hibernating / Churned
+CUST-10146,40,6,8423.17,1403.86,3.8,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2024-11-27,2026-09-26,4,4,5,445,13,Champions
+CUST-10147,280,4,4269.12,1067.28,3.38,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2024-12-10,2026-01-29,2,3,3,233,8,At Risk (High Value)
+CUST-10148,269,8,8443.47,1055.43,3.89,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2024-12-02,2026-02-09,2,5,5,255,12,At Risk (High Value)
+CUST-10149,84,8,6817.24,852.16,3.89,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-02-12,2026-08-13,3,5,4,354,12,Loyal Customers
+CUST-10150,57,3,3136.74,1045.58,3.6,Toronto Hub,Canada,43.6532,-79.3832,Email Campaign,Control_A,2026-04-02,2026-09-09,4,2,2,422,8,Potential Loyalists
+CUST-10151,97,3,4426.52,1475.51,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2026-04-21,2026-07-31,3,2,3,323,8,Hibernating / Churned
+CUST-10153,40,3,4954.49,1651.5,4.57,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-08-23,2026-09-26,4,2,3,423,9,Potential Loyalists
+CUST-10154,58,5,5126.79,1025.36,3.82,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Control_A,2025-02-17,2026-09-08,4,3,3,433,10,Potential Loyalists
+CUST-10155,422,2,2635.82,1317.91,4.6,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-08-13,2025-09-09,1,1,2,112,4,Hibernating / Churned
+CUST-10156,117,1,347.2,347.2,3.9,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2026-07-11,2026-07-11,3,1,1,311,5,Hibernating / Churned
+CUST-10157,77,6,5623.14,937.19,3.45,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-01-30,2026-08-20,4,4,4,444,12,Champions
+CUST-10158,66,4,3561.54,890.38,3.62,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-05-20,2026-08-31,4,3,3,433,10,Potential Loyalists
+CUST-10159,227,3,3989.41,1329.8,4.27,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-11-04,2026-03-23,2,2,3,223,7,Hibernating / Churned
+CUST-10160,297,2,2243.46,1121.73,3.65,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2025-09-18,2026-01-12,1,1,2,112,4,Hibernating / Churned
+CUST-10161,326,4,4290.36,1072.59,4.47,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-01-18,2025-12-14,1,3,3,133,7,At Risk (High Value)
+CUST-10162,167,1,698.09,698.09,3.1,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2026-05-22,2026-05-22,2,1,1,211,4,Hibernating / Churned
+CUST-10163,48,1,1010.76,1010.76,3.2,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2026-09-18,2026-09-18,4,1,1,411,6,Hibernating / Churned
+CUST-10164,354,2,1891.29,945.64,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-03-10,2025-11-16,1,1,2,112,4,Hibernating / Churned
+CUST-10165,164,1,1236.4,1236.4,3.4,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2026-05-25,2026-05-25,2,1,1,211,4,Hibernating / Churned
+CUST-10167,338,3,2453.38,817.79,4.37,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2024-12-04,2025-12-02,1,2,2,122,5,Hibernating / Churned
+CUST-10169,135,3,3920.7,1306.9,4.4,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2024-12-13,2026-06-23,3,2,3,323,8,Hibernating / Churned
+CUST-10171,342,3,3199.91,1066.64,4.23,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-11-07,2025-11-28,1,2,2,122,5,Hibernating / Churned
+CUST-10172,403,1,497.5,497.5,3.8,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2025-09-28,2025-09-28,1,1,1,111,3,Hibernating / Churned
+CUST-10173,551,1,885.56,885.56,3.1,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-05-03,2025-05-03,1,1,1,111,3,Hibernating / Churned
+CUST-10174,49,5,5455.52,1091.1,3.62,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-10-06,2026-09-17,4,3,3,433,10,Potential Loyalists
+CUST-10175,509,1,1790.24,1790.24,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-06-14,2025-06-14,1,1,1,111,3,Hibernating / Churned
+CUST-10176,365,1,1269.53,1269.53,3.6,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-11-05,2025-11-05,1,1,1,111,3,Hibernating / Churned
+CUST-10177,490,2,1975.59,987.8,4.4,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-05-23,2025-07-03,1,1,2,112,4,Hibernating / Churned
+CUST-10178,576,1,1027.74,1027.74,4.0,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Control_A,2025-04-08,2025-04-08,1,1,1,111,3,Hibernating / Churned
+CUST-10179,672,1,1238.73,1238.73,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-02,2025-01-02,1,1,1,111,3,Hibernating / Churned
+CUST-10180,58,11,12294.4,1117.67,4.11,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2024-11-20,2026-09-08,4,5,5,455,14,Champions
+CUST-10181,314,2,4268.02,2134.01,4.45,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-08-27,2025-12-26,1,1,3,113,5,Hibernating / Churned
+CUST-10183,615,1,1379.4,1379.4,3.5,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-02-28,2025-02-28,1,1,1,111,3,Hibernating / Churned
+CUST-10184,7,5,8375.41,1675.08,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-09-24,2026-10-29,5,3,4,534,12,Potential Loyalists
+CUST-10185,307,3,2093.01,697.67,3.73,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2024-12-25,2026-01-02,1,2,2,122,5,Hibernating / Churned
+CUST-10186,49,9,7249.81,805.53,3.6,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-01-09,2026-09-17,4,5,4,454,13,Champions
+CUST-10187,59,5,5278.04,1055.61,4.24,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2024-11-26,2026-09-07,4,3,3,433,10,Potential Loyalists
+CUST-10188,69,13,11476.42,882.8,3.79,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2024-12-03,2026-08-28,4,5,5,455,14,Champions
+CUST-10189,8,4,4397.22,1099.3,4.32,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-21,2026-10-28,5,3,3,533,11,Potential Loyalists
+CUST-10190,175,6,8017.37,1336.23,4.15,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-12-31,2026-05-14,2,4,4,244,10,At Risk (High Value)
+CUST-10191,557,1,620.66,620.66,3.5,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2025-04-27,2025-04-27,1,1,1,111,3,Hibernating / Churned
+CUST-10192,67,6,6401.51,1066.92,4.28,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-02-27,2026-08-30,4,4,4,444,12,Champions
+CUST-10193,36,5,9611.93,1922.39,4.22,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2024-12-15,2026-09-30,5,3,5,535,13,Potential Loyalists
+CUST-10195,599,1,1012.24,1012.24,3.7,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-03-16,2025-03-16,1,1,1,111,3,Hibernating / Churned
+CUST-10196,25,5,4779.67,955.93,3.82,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-09-10,2026-10-11,5,3,3,533,11,Potential Loyalists
+CUST-10197,161,8,8144.27,1018.03,3.36,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-01-10,2026-05-28,2,5,4,254,11,At Risk (High Value)
+CUST-10198,92,11,13925.25,1265.93,3.8,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2024-11-25,2026-08-05,3,5,5,355,13,Loyal Customers
+CUST-10199,115,9,9883.11,1098.12,3.8,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-01-02,2026-07-13,3,5,5,355,13,Loyal Customers
+CUST-10201,428,3,3697.32,1232.44,3.97,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-02-27,2025-09-03,1,2,3,123,6,Hibernating / Churned
+CUST-10202,182,3,4820.63,1606.88,4.27,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-06-03,2026-05-07,2,2,3,223,7,Hibernating / Churned
+CUST-10203,59,4,4350.95,1087.74,3.85,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2024-12-06,2026-09-07,4,3,3,433,10,Potential Loyalists
+CUST-10204,344,3,3953.89,1317.96,3.47,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2024-12-10,2025-11-26,1,2,3,123,6,Hibernating / Churned
+CUST-10205,556,1,1033.85,1033.85,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-04-28,2025-04-28,1,1,1,111,3,Hibernating / Churned
+CUST-10206,193,3,2673.09,891.03,3.8,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2024-12-14,2026-04-26,2,2,2,222,6,Hibernating / Churned
+CUST-10207,295,4,5228.4,1307.1,3.78,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-01-08,2026-01-14,2,3,3,233,8,At Risk (High Value)
+CUST-10209,8,1,1377.1,1377.1,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2026-10-28,2026-10-28,5,1,1,511,7,Hibernating / Churned
+CUST-10211,5,10,10409.93,1040.99,3.57,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-02-10,2026-10-31,5,5,5,555,15,Champions
+CUST-10212,88,13,13848.66,1065.28,3.88,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2024-11-28,2026-08-09,3,5,5,355,13,Loyal Customers
+CUST-10213,363,1,263.91,263.91,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-11-07,2025-11-07,1,1,1,111,3,Hibernating / Churned
+CUST-10214,58,2,1264.39,632.19,3.6,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2026-01-19,2026-09-08,4,1,1,411,6,Hibernating / Churned
+CUST-10215,99,6,7868.54,1311.42,3.78,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-01-14,2026-07-29,3,4,4,344,11,Loyal Customers
+CUST-10216,527,1,1318.07,1318.07,3.9,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-05-27,2025-05-27,1,1,1,111,3,Hibernating / Churned
+CUST-10217,26,9,10148.03,1127.56,3.93,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-07-25,2026-10-10,5,5,5,555,15,Champions
+CUST-10218,104,5,5157.11,1031.42,4.26,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-01-26,2026-07-24,3,3,3,333,9,Hibernating / Churned
+CUST-10219,88,1,747.67,747.67,3.7,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Control_A,2026-08-09,2026-08-09,3,1,1,311,5,Hibernating / Churned
+CUST-10220,7,7,8528.72,1218.39,4.36,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2024-12-11,2026-10-29,5,4,5,545,14,Champions
+CUST-10221,263,4,6829.0,1707.25,4.35,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-02-16,2026-02-15,2,3,4,234,9,At Risk (High Value)
+CUST-10222,39,6,5977.52,996.25,3.68,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-05-23,2026-09-27,4,4,4,444,12,Champions
+CUST-10223,46,3,3124.48,1041.49,4.5,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2026-02-09,2026-09-20,4,2,2,422,8,Potential Loyalists
+CUST-10224,281,1,944.95,944.95,3.7,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2026-01-28,2026-01-28,2,1,1,211,4,Hibernating / Churned
+CUST-10225,616,1,752.43,752.43,5.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-02-27,2025-02-27,1,1,1,111,3,Hibernating / Churned
+CUST-10226,213,1,436.85,436.85,3.7,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Control_A,2026-04-06,2026-04-06,2,1,1,211,4,Hibernating / Churned
+CUST-10227,158,3,3347.36,1115.79,4.7,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2025-07-12,2026-05-31,2,2,2,222,6,Hibernating / Churned
+CUST-10228,156,8,8275.49,1034.44,4.1,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2025-02-12,2026-06-02,3,5,4,354,12,Loyal Customers
+CUST-10229,44,10,10149.81,1014.98,4.0,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2024-11-24,2026-09-22,4,5,5,455,14,Champions
+CUST-10230,13,8,11733.55,1466.69,4.45,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-04-10,2026-10-23,5,5,5,555,15,Champions
+CUST-10231,106,6,7706.98,1284.5,4.28,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-07-09,2026-07-22,3,4,4,344,11,Loyal Customers
+CUST-10232,11,11,11683.76,1062.16,3.92,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-01-20,2026-10-25,5,5,5,555,15,Champions
+CUST-10233,5,18,18529.73,1029.43,3.72,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2024-11-06,2026-10-31,5,5,5,555,15,Champions
+CUST-10235,89,7,9212.15,1316.02,4.29,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2024-11-28,2026-08-08,3,4,5,345,12,Loyal Customers
+CUST-10236,248,7,6728.63,961.23,4.16,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-11-23,2026-03-02,2,4,4,244,10,At Risk (High Value)
+CUST-10237,204,5,4192.51,838.5,4.28,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-11-07,2026-04-15,2,3,3,233,8,At Risk (High Value)
+CUST-10238,230,1,962.47,962.47,3.4,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2026-03-20,2026-03-20,2,1,1,211,4,Hibernating / Churned
+CUST-10239,234,7,9787.34,1398.19,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-11-20,2026-03-16,2,4,5,245,11,At Risk (High Value)
+CUST-10240,238,3,2795.78,931.93,3.93,Toronto Hub,Canada,43.6532,-79.3832,Email Campaign,Control_A,2025-09-05,2026-03-12,2,2,2,222,6,Hibernating / Churned
+CUST-10241,45,7,7833.34,1119.05,3.84,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Control_A,2025-05-24,2026-09-21,4,4,4,444,12,Champions
+CUST-10242,32,2,2842.02,1421.01,4.0,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2024-11-13,2026-10-04,5,1,2,512,8,Hibernating / Churned
+CUST-10243,345,3,3136.85,1045.62,4.67,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-02-03,2025-11-25,1,2,2,122,5,Hibernating / Churned
+CUST-10244,25,9,9369.53,1041.06,3.81,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-01-19,2026-10-11,5,5,5,555,15,Champions
+CUST-10245,48,7,6445.62,920.8,3.79,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2025-02-04,2026-09-18,4,4,4,444,12,Champions
+CUST-10246,33,2,2764.7,1382.35,4.3,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2026-09-22,2026-10-03,5,1,2,512,8,Hibernating / Churned
+CUST-10247,140,14,18237.86,1302.7,4.26,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Variant_B,2024-11-22,2026-06-18,3,5,5,355,13,Loyal Customers
+CUST-10248,335,2,2818.14,1409.07,3.6,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Control_A,2025-10-14,2025-12-05,1,1,2,112,4,Hibernating / Churned
+CUST-10249,31,4,4707.97,1176.99,3.72,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2025-03-12,2026-10-05,5,3,3,533,11,Potential Loyalists
+CUST-10250,194,2,3239.69,1619.84,3.8,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2026-01-01,2026-04-25,2,1,2,212,5,Hibernating / Churned
+CUST-10251,26,12,12728.79,1060.73,3.72,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-12-29,2026-10-10,5,5,5,555,15,Champions
+CUST-10252,7,7,5718.13,816.88,3.63,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Control_A,2024-12-19,2026-10-29,5,4,4,544,13,Champions
+CUST-10253,18,9,10389.97,1154.44,3.71,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-01-03,2026-10-18,5,5,5,555,15,Champions
+CUST-10254,371,3,3295.99,1098.66,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-01-17,2025-10-30,1,2,2,122,5,Hibernating / Churned
+CUST-10255,63,7,5481.23,783.03,3.86,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2025-02-06,2026-09-03,4,4,4,444,12,Champions
+CUST-10256,204,5,6962.87,1392.57,4.1,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2025-06-07,2026-04-15,2,3,4,234,9,At Risk (High Value)
+CUST-10257,117,9,12415.98,1379.55,4.36,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2024-12-17,2026-07-11,3,5,5,355,13,Loyal Customers
+CUST-10259,246,5,7174.98,1435.0,4.46,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-01-02,2026-03-04,2,3,4,234,9,At Risk (High Value)
+CUST-10260,656,1,827.34,827.34,3.4,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2025-01-18,2025-01-18,1,1,1,111,3,Hibernating / Churned
+CUST-10261,9,12,15786.23,1315.52,4.25,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Variant_B,2024-12-05,2026-10-27,5,5,5,555,15,Champions
+CUST-10262,18,7,9379.63,1339.95,3.71,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-11-16,2026-10-18,5,4,5,545,14,Champions
+CUST-10263,175,1,1207.4,1207.4,4.4,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2026-05-14,2026-05-14,2,1,1,211,4,Hibernating / Churned
+CUST-10264,207,5,5526.58,1105.32,3.94,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Variant_B,2025-01-03,2026-04-12,2,3,4,234,9,At Risk (High Value)
+CUST-10265,191,11,8970.41,815.49,4.22,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2024-12-01,2026-04-28,2,5,5,255,12,At Risk (High Value)
+CUST-10266,24,4,5227.11,1306.78,3.85,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2025-12-17,2026-10-12,5,3,3,533,11,Potential Loyalists
+CUST-10267,77,1,1276.03,1276.03,4.3,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2026-08-20,2026-08-20,4,1,1,411,6,Hibernating / Churned
+CUST-10268,62,4,3537.95,884.49,4.35,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2025-02-23,2026-09-04,4,3,2,432,9,Potential Loyalists
+CUST-10269,14,3,4538.47,1512.82,3.87,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-04-06,2026-10-22,5,2,3,523,10,Potential Loyalists
+CUST-10270,421,3,3100.83,1033.61,4.3,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-01-11,2025-09-10,1,2,2,122,5,Hibernating / Churned
+CUST-10271,349,1,579.88,579.88,4.0,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-11-21,2025-11-21,1,1,1,111,3,Hibernating / Churned
+CUST-10272,78,3,4512.32,1504.11,4.57,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Variant_B,2025-06-25,2026-08-19,3,2,3,323,8,Hibernating / Churned
+CUST-10273,339,1,430.12,430.12,3.6,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Control_A,2025-12-01,2025-12-01,1,1,1,111,3,Hibernating / Churned
+CUST-10274,182,5,5239.19,1047.84,3.94,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-01-04,2026-05-07,2,3,3,233,8,At Risk (High Value)
+CUST-10275,38,5,7647.1,1529.42,4.02,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2024-12-09,2026-09-28,4,3,4,434,11,Potential Loyalists
+CUST-10276,37,6,9053.98,1509.0,4.2,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2024-12-30,2026-09-29,4,4,5,445,13,Champions
+CUST-10277,91,3,3531.72,1177.24,3.37,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-01-20,2026-08-06,3,2,2,322,7,Hibernating / Churned
+CUST-10278,13,2,2358.03,1179.01,4.05,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-12-18,2026-10-23,5,1,2,512,8,Hibernating / Churned
+CUST-10279,227,1,803.7,803.7,4.2,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2026-03-23,2026-03-23,2,1,1,211,4,Hibernating / Churned
+CUST-10280,237,1,1447.25,1447.25,4.4,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2026-03-13,2026-03-13,2,1,1,211,4,Hibernating / Churned
+CUST-10281,235,1,1323.42,1323.42,4.5,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2026-03-15,2026-03-15,2,1,1,211,4,Hibernating / Churned
+CUST-10282,34,2,2138.48,1069.24,3.8,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-08-02,2026-10-02,5,1,2,512,8,Hibernating / Churned
+CUST-10284,414,1,1266.94,1266.94,3.2,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-09-17,2025-09-17,1,1,1,111,3,Hibernating / Churned
+CUST-10285,188,5,4426.57,885.31,4.06,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-01-05,2026-05-01,2,3,3,233,8,At Risk (High Value)
+CUST-10286,97,4,4731.25,1182.81,3.85,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-01-01,2026-07-31,3,3,3,333,9,Hibernating / Churned
+CUST-10287,137,7,7261.23,1037.32,3.83,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-02-21,2026-06-21,3,4,4,344,11,Loyal Customers
+CUST-10288,7,4,5096.92,1274.23,4.22,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-06-21,2026-10-29,5,3,3,533,11,Potential Loyalists
+CUST-10289,14,12,13143.55,1095.3,3.94,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2025-01-25,2026-10-22,5,5,5,555,15,Champions
+CUST-10290,36,12,13049.03,1087.42,4.18,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-11-12,2026-09-30,5,5,5,555,15,Champions
+CUST-10291,319,2,2736.09,1368.04,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-09-10,2025-12-21,1,1,2,112,4,Hibernating / Churned
+CUST-10292,124,4,6021.63,1505.41,3.8,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-12-15,2026-07-04,3,3,4,334,10,Hibernating / Churned
+CUST-10293,14,12,11535.11,961.26,3.77,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2024-11-22,2026-10-22,5,5,5,555,15,Champions
+CUST-10294,73,5,8760.39,1752.08,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-02-01,2026-08-24,4,3,5,435,12,Potential Loyalists
+CUST-10295,52,11,13604.99,1236.82,4.29,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-02-01,2026-09-14,4,5,5,455,14,Champions
+CUST-10296,62,6,8122.62,1353.77,4.18,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2024-11-24,2026-09-04,4,4,4,444,12,Champions
+CUST-10297,69,6,7687.33,1281.22,3.7,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-12-17,2026-08-28,4,4,4,444,12,Champions
+CUST-10298,133,4,6529.49,1632.37,3.82,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-03-21,2026-06-25,3,3,4,334,10,Hibernating / Churned
+CUST-10299,178,1,1031.26,1031.26,3.6,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2026-05-11,2026-05-11,2,1,1,211,4,Hibernating / Churned
+CUST-10300,671,1,1165.53,1165.53,4.9,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-03,2025-01-03,1,1,1,111,3,Hibernating / Churned
+CUST-10301,238,7,8650.0,1235.71,4.17,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2024-12-10,2026-03-12,2,4,5,245,11,At Risk (High Value)
+CUST-10302,60,8,5298.45,662.31,3.51,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2024-12-03,2026-09-06,4,5,3,453,12,Loyal Customers
+CUST-10303,17,18,23414.07,1300.78,3.75,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2024-11-16,2026-10-19,5,5,5,555,15,Champions
+CUST-10304,34,5,4925.78,985.16,4.24,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-04-18,2026-10-02,5,3,3,533,11,Potential Loyalists
+CUST-10305,49,6,8164.03,1360.67,4.05,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Variant_B,2025-01-15,2026-09-17,4,4,4,444,12,Champions
+CUST-10307,205,7,8366.84,1195.26,3.69,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-12-30,2026-04-14,2,4,4,244,10,At Risk (High Value)
+CUST-10308,27,8,7066.84,883.36,3.95,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-03-26,2026-10-09,5,5,4,554,14,Champions
+CUST-10309,478,2,3161.24,1580.62,3.45,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-04-17,2025-07-15,1,1,2,112,4,Hibernating / Churned
+CUST-10310,28,5,4477.72,895.54,3.96,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-09-04,2026-10-08,5,4,3,543,12,Loyal Customers
+CUST-10311,359,1,1813.81,1813.81,5.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-11-11,2025-11-11,1,1,1,111,3,Hibernating / Churned
+CUST-10312,254,1,1482.83,1482.83,3.5,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2026-02-24,2026-02-24,2,1,1,211,4,Hibernating / Churned
+CUST-10314,117,4,4295.98,1073.99,3.92,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2024-11-06,2026-07-11,3,3,3,333,9,Hibernating / Churned
+CUST-10315,526,1,1290.6,1290.6,5.0,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-05-28,2025-05-28,1,1,1,111,3,Hibernating / Churned
+CUST-10316,36,6,8248.85,1374.81,4.68,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2024-11-22,2026-09-30,5,4,4,544,13,Champions
+CUST-10317,499,1,735.18,735.18,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-06-24,2025-06-24,1,1,1,111,3,Hibernating / Churned
+CUST-10318,21,3,3597.97,1199.32,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-03-11,2026-10-15,5,2,3,523,10,Potential Loyalists
+CUST-10319,188,5,4757.56,951.51,3.84,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-03-10,2026-05-01,2,4,3,243,9,At Risk (High Value)
+CUST-10320,21,7,8511.98,1216.0,4.23,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2024-12-26,2026-10-15,5,4,5,545,14,Champions
+CUST-10321,34,7,6834.3,976.33,4.11,New York North,United States,40.7128,-74.006,Email Campaign,Variant_B,2024-11-04,2026-10-02,5,4,4,544,13,Champions
+CUST-10322,87,7,8378.94,1196.99,4.34,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-02-01,2026-08-10,3,4,4,344,11,Loyal Customers
+CUST-10323,377,2,1872.94,936.47,3.65,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-05-14,2025-10-24,1,1,1,111,3,Hibernating / Churned
+CUST-10324,122,3,3170.22,1056.74,4.4,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Control_A,2024-11-24,2026-07-06,3,2,2,322,7,Hibernating / Churned
+CUST-10325,15,7,5681.06,811.58,3.6,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-02-11,2026-10-21,5,4,4,544,13,Champions
+CUST-10326,49,12,13620.05,1135.0,3.78,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2024-12-20,2026-09-17,4,5,5,455,14,Champions
+CUST-10327,144,3,4757.21,1585.74,3.8,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2024-11-24,2026-06-14,3,2,3,323,8,Hibernating / Churned
+CUST-10328,381,2,1784.01,892.0,3.7,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2024-12-27,2025-10-20,1,1,1,111,3,Hibernating / Churned
+CUST-10329,387,1,851.09,851.09,4.6,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-10-14,2025-10-14,1,1,1,111,3,Hibernating / Churned
+CUST-10330,685,1,536.93,536.93,4.5,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-12-20,2024-12-20,1,1,1,111,3,Hibernating / Churned
+CUST-10332,6,11,13104.2,1191.29,4.09,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-12-27,2026-10-30,5,5,5,555,15,Champions
+CUST-10333,120,3,4545.24,1515.08,3.97,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2026-04-12,2026-07-08,3,2,3,323,8,Hibernating / Churned
+CUST-10334,384,1,1101.67,1101.67,4.7,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-10-17,2025-10-17,1,1,1,111,3,Hibernating / Churned
+CUST-10335,16,5,6055.31,1211.06,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-06-22,2026-10-20,5,4,4,544,13,Champions
+CUST-10336,64,8,9593.7,1199.21,4.04,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2025-05-04,2026-09-02,4,5,5,455,14,Champions
+CUST-10337,263,2,3756.18,1878.09,3.9,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2025-01-10,2026-02-15,2,1,3,213,6,Hibernating / Churned
+CUST-10339,182,2,2256.43,1128.22,3.6,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-11-24,2026-05-07,2,1,2,212,5,Hibernating / Churned
+CUST-10340,164,9,10408.39,1156.49,3.88,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-03-15,2026-05-25,2,5,5,255,12,At Risk (High Value)
+CUST-10341,267,4,2702.51,675.63,3.9,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-01-05,2026-02-11,2,3,2,232,7,At Risk (High Value)
+CUST-10342,420,1,1777.28,1777.28,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-09-11,2025-09-11,1,1,1,111,3,Hibernating / Churned
+CUST-10343,605,1,1011.95,1011.95,4.1,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-03-10,2025-03-10,1,1,1,111,3,Hibernating / Churned
+CUST-10345,20,4,2658.56,664.64,4.62,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-01-11,2026-10-16,5,3,2,532,10,Potential Loyalists
+CUST-10346,42,14,18804.33,1343.17,4.16,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-03-14,2026-09-24,4,5,5,455,14,Champions
+CUST-10347,43,6,8996.93,1499.49,3.88,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-11-22,2026-09-23,4,4,5,445,13,Champions
+CUST-10348,6,6,6724.63,1120.77,4.38,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-12-15,2026-10-30,5,4,4,544,13,Champions
+CUST-10349,31,11,18065.98,1642.36,4.16,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-04-01,2026-10-05,5,5,5,555,15,Champions
+CUST-10350,222,2,1958.36,979.18,3.65,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2025-09-07,2026-03-28,2,1,2,212,5,Hibernating / Churned
+CUST-10351,515,1,1718.5,1718.5,4.0,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2025-06-08,2025-06-08,1,1,1,111,3,Hibernating / Churned
+CUST-10352,43,7,4927.24,703.89,4.29,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2026-02-05,2026-09-23,4,4,3,443,11,Loyal Customers
+CUST-10353,112,7,9690.98,1384.43,3.84,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-08-23,2026-07-16,3,4,5,345,12,Loyal Customers
+CUST-10354,52,14,14376.52,1026.89,4.29,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-12-04,2026-09-14,4,5,5,455,14,Champions
+CUST-10355,120,2,1312.93,656.46,4.05,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2026-05-11,2026-07-08,3,1,1,311,5,Hibernating / Churned
+CUST-10356,293,1,1936.53,1936.53,3.5,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2026-01-16,2026-01-16,2,1,2,212,5,Hibernating / Churned
+CUST-10357,43,4,4450.72,1112.68,4.15,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-03-30,2026-09-23,4,3,3,433,10,Potential Loyalists
+CUST-10358,326,3,3486.74,1162.25,4.17,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2025-04-30,2025-12-14,1,2,2,122,5,Hibernating / Churned
+CUST-10359,197,3,2888.0,962.67,4.1,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2025-10-10,2026-04-22,2,2,2,222,6,Hibernating / Churned
+CUST-10360,47,3,3737.86,1245.95,3.67,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-10-27,2026-09-19,4,2,3,423,9,Potential Loyalists
+CUST-10361,129,6,6048.3,1008.05,3.8,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-02-11,2026-06-29,3,4,4,344,11,Loyal Customers
+CUST-10362,293,2,2462.02,1231.01,4.25,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-04-11,2026-01-16,2,1,2,212,5,Hibernating / Churned
+CUST-10363,332,3,2842.04,947.35,3.63,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2024-12-20,2025-12-08,1,2,2,122,5,Hibernating / Churned
+CUST-10364,46,6,7451.5,1241.92,4.0,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Control_A,2024-12-08,2026-09-20,4,4,4,444,12,Champions
+CUST-10365,202,3,5451.77,1817.26,4.2,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-07-22,2026-04-17,2,2,3,223,7,Hibernating / Churned
+CUST-10366,20,6,8228.75,1371.46,3.93,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Variant_B,2025-02-02,2026-10-16,5,4,4,544,13,Champions
+CUST-10367,118,5,4072.16,814.43,3.6,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2025-02-13,2026-07-10,3,4,3,343,10,Loyal Customers
+CUST-10369,183,4,6837.92,1709.48,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-03-16,2026-05-06,2,3,4,234,9,At Risk (High Value)
+CUST-10370,26,11,11885.66,1080.51,3.51,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-02-25,2026-10-10,5,5,5,555,15,Champions
+CUST-10371,10,2,1762.88,881.44,3.05,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-12-03,2026-10-26,5,1,1,511,7,Hibernating / Churned
+CUST-10372,9,1,1457.3,1457.3,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2026-10-27,2026-10-27,5,1,1,511,7,Hibernating / Churned
+CUST-10374,290,2,2130.18,1065.09,4.25,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-05-16,2026-01-19,2,1,2,212,5,Hibernating / Churned
+CUST-10375,314,2,2503.56,1251.78,4.3,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-11-26,2025-12-26,1,1,2,112,4,Hibernating / Churned
+CUST-10376,580,1,593.56,593.56,3.5,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-04-04,2025-04-04,1,1,1,111,3,Hibernating / Churned
+CUST-10377,29,10,12187.16,1218.72,3.88,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-01-10,2026-10-07,5,5,5,555,15,Champions
+CUST-10378,698,1,1400.51,1400.51,4.1,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2024-12-07,2024-12-07,1,1,1,111,3,Hibernating / Churned
+CUST-10379,79,3,3806.3,1268.77,3.73,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-07-03,2026-08-18,3,2,3,323,8,Hibernating / Churned
+CUST-10380,313,4,4531.28,1132.82,4.22,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-11-20,2025-12-27,1,3,3,133,7,At Risk (High Value)
+CUST-10381,109,7,10816.72,1545.25,4.39,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2024-11-17,2026-07-19,3,4,5,345,12,Loyal Customers
+CUST-10382,30,3,3015.81,1005.27,3.57,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-08-25,2026-10-06,5,2,2,522,9,Potential Loyalists
+CUST-10383,259,1,1290.74,1290.74,5.0,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2026-02-19,2026-02-19,2,1,1,211,4,Hibernating / Churned
+CUST-10384,21,2,1772.73,886.36,4.35,New York North,United States,40.7128,-74.006,Email Campaign,Variant_B,2025-09-10,2026-10-15,5,1,1,511,7,Hibernating / Churned
+CUST-10385,218,5,6137.81,1227.56,3.88,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-02-23,2026-04-01,2,4,4,244,10,At Risk (High Value)
+CUST-10386,25,23,29070.89,1263.95,4.14,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-02-16,2026-10-11,5,5,5,555,15,Champions
+CUST-10387,89,1,1312.53,1312.53,3.7,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2026-08-08,2026-08-08,3,1,1,311,5,Hibernating / Churned
+CUST-10388,99,4,3881.49,970.37,4.12,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-10-16,2026-07-29,3,3,3,333,9,Hibernating / Churned
+CUST-10389,50,11,14511.66,1319.24,4.18,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2024-11-21,2026-09-16,4,5,5,455,14,Champions
+CUST-10390,226,5,6479.7,1295.94,3.92,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Variant_B,2024-12-15,2026-03-24,2,4,4,244,10,At Risk (High Value)
+CUST-10391,43,3,2969.77,989.92,4.13,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2025-06-05,2026-09-23,4,2,2,422,8,Potential Loyalists
+CUST-10392,174,3,2401.91,800.64,3.87,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-11-24,2026-05-15,2,2,2,222,6,Hibernating / Churned
+CUST-10393,216,3,3026.63,1008.88,3.5,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-01-08,2026-04-03,2,2,2,222,6,Hibernating / Churned
+CUST-10394,85,5,7301.55,1460.31,3.82,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-05-11,2026-08-12,3,4,4,344,11,Loyal Customers
+CUST-10395,153,3,3198.0,1066.0,3.77,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Variant_B,2025-06-26,2026-06-05,3,2,2,322,7,Hibernating / Churned
+CUST-10396,72,8,8755.21,1094.4,3.74,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2024-12-07,2026-08-25,4,5,5,455,14,Champions
+CUST-10397,293,1,1359.01,1359.01,3.6,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2026-01-16,2026-01-16,2,1,1,211,4,Hibernating / Churned
+CUST-10398,82,10,9473.32,947.33,4.06,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2024-12-02,2026-08-15,3,5,5,355,13,Loyal Customers
+CUST-10400,293,2,1879.43,939.71,4.25,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-10-04,2026-01-16,2,1,1,211,4,Hibernating / Churned
+CUST-10401,308,2,1740.79,870.4,4.6,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-10-13,2026-01-01,1,1,1,111,3,Hibernating / Churned
+CUST-10402,144,1,1246.83,1246.83,3.8,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2026-06-14,2026-06-14,3,1,1,311,5,Hibernating / Churned
+CUST-10403,25,15,20550.97,1370.06,4.25,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2024-11-23,2026-10-11,5,5,5,555,15,Champions
+CUST-10404,57,2,2929.22,1464.61,4.3,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2026-04-09,2026-09-09,4,1,2,412,7,Hibernating / Churned
+CUST-10405,21,4,5485.77,1371.44,4.4,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2024-12-13,2026-10-15,5,3,4,534,12,Potential Loyalists
+CUST-10406,602,1,1907.4,1907.4,4.8,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2025-03-13,2025-03-13,1,1,2,112,4,Hibernating / Churned
+CUST-10407,71,12,11445.54,953.8,4.16,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-01-01,2026-08-26,4,5,5,455,14,Champions
+CUST-10408,400,2,2715.98,1357.99,3.35,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2025-07-07,2025-10-01,1,2,2,122,5,Hibernating / Churned
+CUST-10409,30,12,15450.51,1287.54,4.36,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-11-21,2026-10-06,5,5,5,555,15,Champions
+CUST-10410,37,4,3157.36,789.34,3.7,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2024-11-07,2026-09-29,4,3,2,432,9,Potential Loyalists
+CUST-10411,37,21,28351.91,1350.09,4.1,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Variant_B,2025-01-04,2026-09-29,4,5,5,455,14,Champions
+CUST-10412,84,2,2232.19,1116.1,4.1,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Variant_B,2025-11-03,2026-08-13,3,2,2,322,7,Hibernating / Churned
+CUST-10413,64,1,588.05,588.05,3.7,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2026-09-02,2026-09-02,4,1,1,411,6,Hibernating / Churned
+CUST-10414,338,4,4170.77,1042.69,4.45,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2024-12-18,2025-12-02,1,3,3,133,7,At Risk (High Value)
+CUST-10415,320,4,6318.97,1579.74,4.2,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-05-23,2025-12-20,1,3,4,134,8,At Risk (High Value)
+CUST-10416,339,2,936.47,468.24,4.15,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2024-12-25,2025-12-01,1,2,1,121,4,Hibernating / Churned
+CUST-10417,9,11,11186.52,1016.96,3.85,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-05-04,2026-10-27,5,5,5,555,15,Champions
+CUST-10418,114,5,7154.42,1430.88,3.7,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2024-12-19,2026-07-14,3,4,4,344,11,Loyal Customers
+CUST-10419,461,3,3671.16,1223.72,3.8,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-02-10,2025-08-01,1,2,3,123,6,Hibernating / Churned
+CUST-10420,270,5,6325.75,1265.15,4.04,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-02-18,2026-02-08,2,4,4,244,10,At Risk (High Value)
+CUST-10421,386,3,3017.68,1005.89,3.8,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2024-11-22,2025-10-15,1,2,2,122,5,Hibernating / Churned
+CUST-10422,332,4,3731.84,932.96,4.48,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-12-03,2025-12-08,1,3,3,133,7,At Risk (High Value)
+CUST-10423,73,5,5214.63,1042.93,4.0,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2025-02-12,2026-08-24,4,4,3,443,11,Loyal Customers
+CUST-10424,161,7,8608.21,1229.74,4.01,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-04-18,2026-05-28,2,4,5,245,11,At Risk (High Value)
+CUST-10425,172,2,2894.61,1447.3,4.85,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-07-21,2026-05-17,2,2,2,222,6,Hibernating / Churned
+CUST-10426,47,3,3891.29,1297.1,4.07,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-11-28,2026-09-19,4,2,3,423,9,Potential Loyalists
+CUST-10427,33,2,2295.77,1147.88,3.9,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2026-09-23,2026-10-03,5,2,2,522,9,Potential Loyalists
+CUST-10428,328,4,3280.73,820.18,3.58,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-02-03,2025-12-12,1,3,2,132,6,At Risk (High Value)
+CUST-10429,27,12,13750.08,1145.84,3.92,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-02-03,2026-10-09,5,5,5,555,15,Champions
+CUST-10430,25,3,3389.86,1129.95,3.83,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2026-01-10,2026-10-11,5,2,2,522,9,Potential Loyalists
+CUST-10431,542,1,2405.5,2405.5,4.6,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-05-12,2025-05-12,1,1,2,112,4,Hibernating / Churned
+CUST-10432,58,2,1826.02,913.01,3.55,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-07-22,2026-09-08,4,2,1,421,7,Potential Loyalists
+CUST-10434,252,3,3297.15,1099.05,4.03,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-07-03,2026-02-26,2,2,2,222,6,Hibernating / Churned
+CUST-10435,222,2,3260.19,1630.1,4.1,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2024-12-15,2026-03-28,2,2,2,222,6,Hibernating / Churned
+CUST-10436,281,2,2384.45,1192.22,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-09-17,2026-01-28,2,2,2,222,6,Hibernating / Churned
+CUST-10438,155,2,1702.71,851.36,4.8,New York North,United States,40.7128,-74.006,Email Campaign,Variant_B,2024-11-27,2026-06-03,3,2,1,321,6,Hibernating / Churned
+CUST-10439,80,4,4286.51,1071.63,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2024-12-02,2026-08-17,3,3,3,333,9,Hibernating / Churned
+CUST-10440,272,4,3900.88,975.22,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-07-30,2026-02-06,2,3,3,233,8,At Risk (High Value)
+CUST-10441,153,5,5829.76,1165.95,4.26,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Variant_B,2025-06-03,2026-06-05,3,4,4,344,11,Loyal Customers
+CUST-10442,22,2,2871.02,1435.51,3.7,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-09-28,2026-10-14,5,2,2,522,9,Potential Loyalists
+CUST-10443,430,4,5366.43,1341.61,4.03,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-01-06,2025-09-01,1,3,3,133,7,At Risk (High Value)
+CUST-10444,41,5,5073.07,1014.61,4.02,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2024-11-21,2026-09-25,4,4,3,443,11,Loyal Customers
+CUST-10445,11,5,5761.74,1152.35,3.82,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Control_A,2026-05-27,2026-10-25,5,4,4,544,13,Champions
+CUST-10447,66,7,7456.63,1065.23,3.81,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2024-12-05,2026-08-31,4,4,4,444,12,Champions
+CUST-10448,314,1,1385.33,1385.33,4.8,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-12-26,2025-12-26,1,1,1,111,3,Hibernating / Churned
+CUST-10449,194,6,6638.34,1106.39,3.98,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-11-06,2026-04-25,2,4,4,244,10,At Risk (High Value)
+CUST-10450,54,3,3872.44,1290.81,3.7,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2026-06-14,2026-09-12,4,2,3,423,9,Potential Loyalists
+CUST-10451,344,2,1485.1,742.55,3.4,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-05-15,2025-11-26,1,2,1,121,4,Hibernating / Churned
+CUST-10452,276,2,436.12,218.06,4.0,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2024-11-12,2026-02-02,2,2,1,221,5,Hibernating / Churned
+CUST-10453,61,7,9578.97,1368.42,3.79,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Variant_B,2025-02-04,2026-09-05,4,4,5,445,13,Champions
+CUST-10454,65,5,4248.09,849.62,3.88,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-03-22,2026-09-01,4,4,3,443,11,Loyal Customers
+CUST-10455,72,3,2513.88,837.96,4.73,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Variant_B,2024-11-04,2026-08-25,4,2,2,422,8,Potential Loyalists
+CUST-10456,13,4,3809.67,952.42,3.97,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-09-04,2026-10-23,5,3,3,533,11,Potential Loyalists
+CUST-10457,76,5,7844.2,1568.84,3.98,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-02-26,2026-08-21,4,4,4,444,12,Champions
+CUST-10458,154,2,3681.19,1840.6,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-11-25,2026-06-04,3,2,3,323,8,Hibernating / Churned
+CUST-10460,129,13,15674.61,1205.74,4.19,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-25,2026-06-29,3,5,5,355,13,Loyal Customers
+CUST-10461,62,17,18242.16,1073.07,3.68,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2024-12-05,2026-09-04,4,5,5,455,14,Champions
+CUST-10462,300,3,4233.51,1411.17,3.97,New York North,United States,40.7128,-74.006,Email Campaign,Variant_B,2025-03-11,2026-01-09,1,2,3,123,6,Hibernating / Churned
+CUST-10463,72,8,10236.53,1279.57,4.2,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-06-20,2026-08-25,4,5,5,455,14,Champions
+CUST-10464,131,4,3503.75,875.94,3.85,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Control_A,2025-09-20,2026-06-27,3,3,2,332,8,Hibernating / Churned
+CUST-10465,114,8,9906.47,1238.31,4.3,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2025-05-07,2026-07-14,3,5,5,355,13,Loyal Customers
+CUST-10466,11,8,9947.02,1243.38,4.11,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-11-25,2026-10-25,5,5,5,555,15,Champions
+CUST-10467,77,1,1608.4,1608.4,3.9,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Variant_B,2026-08-20,2026-08-20,4,1,1,411,6,Hibernating / Churned
+CUST-10468,96,2,2307.6,1153.8,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-11-05,2026-08-01,3,2,2,322,7,Hibernating / Churned
+CUST-10469,60,11,11519.54,1047.23,3.87,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Control_A,2024-11-10,2026-09-06,4,5,5,455,14,Champions
+CUST-10470,54,10,10879.28,1087.93,4.02,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-07-21,2026-09-12,4,5,5,455,14,Champions
+CUST-10471,307,2,2805.96,1402.98,3.95,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Variant_B,2025-11-15,2026-01-02,1,2,2,122,5,Hibernating / Churned
+CUST-10472,456,2,2494.82,1247.41,4.65,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2024-12-22,2025-08-06,1,2,2,122,5,Hibernating / Churned
+CUST-10473,535,3,3053.02,1017.67,3.53,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2025-02-27,2025-05-19,1,2,2,122,5,Hibernating / Churned
+CUST-10474,100,7,11238.18,1605.45,4.37,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-01-25,2026-07-28,3,4,5,345,12,Loyal Customers
+CUST-10475,183,4,5477.92,1369.48,3.58,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Control_A,2025-06-18,2026-05-06,2,3,4,234,9,At Risk (High Value)
+CUST-10476,65,15,15686.03,1045.74,3.71,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-12-03,2026-09-01,4,5,5,455,14,Champions
+CUST-10477,96,6,7313.16,1218.86,3.75,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-05-08,2026-08-01,3,4,4,344,11,Loyal Customers
+CUST-10478,601,2,2040.17,1020.08,4.1,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Variant_B,2024-11-06,2025-03-14,1,2,2,122,5,Hibernating / Churned
+CUST-10481,8,3,3701.82,1233.94,4.33,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2025-02-26,2026-10-28,5,2,3,523,10,Potential Loyalists
+CUST-10482,12,13,14604.66,1123.44,3.88,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-01-09,2026-10-24,5,5,5,555,15,Champions
+CUST-10483,37,5,4953.55,990.71,3.88,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-01-29,2026-09-29,4,4,3,443,11,Loyal Customers
+CUST-10484,63,1,853.93,853.93,3.0,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2026-09-03,2026-09-03,4,1,1,411,6,Hibernating / Churned
+CUST-10485,125,5,5067.5,1013.5,3.92,Toronto Hub,Canada,43.6532,-79.3832,Email Campaign,Variant_B,2025-01-09,2026-07-03,3,4,3,343,10,Loyal Customers
+CUST-10486,201,2,1101.3,550.65,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-06-14,2026-04-18,2,2,1,221,5,Hibernating / Churned
+CUST-10487,637,2,1917.89,958.94,3.65,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-11-04,2025-02-06,1,2,2,122,5,Hibernating / Churned
+CUST-10489,215,3,2694.24,898.08,4.23,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Variant_B,2024-12-20,2026-04-04,2,2,2,222,6,Hibernating / Churned
+CUST-10490,13,5,5854.41,1170.88,3.86,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-05-29,2026-10-23,5,4,4,544,13,Champions
+CUST-10491,229,3,2659.34,886.45,4.0,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-09-16,2026-03-21,2,2,2,222,6,Hibernating / Churned
+CUST-10492,134,6,8767.87,1461.31,4.42,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-11-07,2026-06-24,3,4,5,345,12,Loyal Customers
+CUST-10493,147,2,2430.65,1215.32,3.5,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-01-31,2026-06-11,3,2,2,322,7,Hibernating / Churned
+CUST-10494,16,6,6564.77,1094.13,3.57,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-04-19,2026-10-20,5,4,4,544,13,Champions
+CUST-10495,67,1,560.88,560.88,4.8,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2026-08-30,2026-08-30,4,1,1,411,6,Hibernating / Churned
+CUST-10496,418,1,1488.23,1488.23,4.2,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-09-13,2025-09-13,1,1,1,111,3,Hibernating / Churned
+CUST-10497,32,5,5045.77,1009.15,3.68,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-01-08,2026-10-04,5,4,3,543,12,Loyal Customers
+CUST-10498,391,2,2815.11,1407.55,4.15,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Control_A,2025-03-29,2025-10-10,1,2,2,122,5,Hibernating / Churned
+CUST-10499,79,5,6253.77,1250.75,3.88,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Control_A,2025-07-29,2026-08-18,3,4,4,344,11,Loyal Customers
+CUST-10500,30,6,6898.03,1149.67,3.87,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2025-11-07,2026-10-06,5,4,4,544,13,Champions
+CUST-10501,19,8,10062.52,1257.82,4.38,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2024-11-05,2026-10-17,5,5,5,555,15,Champions
+CUST-10502,48,8,6686.14,835.77,3.95,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-01-18,2026-09-18,4,5,4,454,13,Champions
+CUST-10503,233,3,4171.36,1390.45,3.6,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-05-26,2026-03-17,2,2,3,223,7,Hibernating / Churned
+CUST-10504,60,11,14490.4,1317.31,3.9,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-01-09,2026-09-06,4,5,5,455,14,Champions
+CUST-10505,50,2,2647.48,1323.74,3.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2026-05-19,2026-09-16,4,2,2,422,8,Potential Loyalists
+CUST-10506,8,11,14323.37,1302.12,4.38,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2025-04-03,2026-10-28,5,5,5,555,15,Champions
+CUST-10507,247,6,7764.56,1294.09,3.75,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2024-11-12,2026-03-03,2,4,4,244,10,At Risk (High Value)
+CUST-10508,6,3,3691.08,1230.36,3.13,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Control_A,2024-11-11,2026-10-30,5,2,3,523,10,Potential Loyalists
+CUST-10509,206,3,5193.79,1731.26,4.3,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-03-10,2026-04-13,2,2,3,223,7,Hibernating / Churned
+CUST-10510,184,3,2446.8,815.6,3.67,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2024-11-25,2026-05-05,2,2,2,222,6,Hibernating / Churned
+CUST-10511,592,1,991.25,991.25,2.9,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-03-23,2025-03-23,1,1,1,111,3,Hibernating / Churned
+CUST-10512,123,8,8185.23,1023.15,4.06,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2025-04-11,2026-07-05,3,5,4,354,12,Loyal Customers
+CUST-10513,523,1,1269.84,1269.84,4.6,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2025-05-31,2025-05-31,1,1,1,111,3,Hibernating / Churned
+CUST-10514,613,1,843.56,843.56,3.5,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-03-02,2025-03-02,1,1,1,111,3,Hibernating / Churned
+CUST-10515,336,4,5139.25,1284.81,4.5,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2024-11-19,2025-12-04,1,3,3,133,7,At Risk (High Value)
+CUST-10516,263,2,2400.54,1200.27,4.1,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2025-08-02,2026-02-15,2,2,2,222,6,Hibernating / Churned
+CUST-10517,13,7,10765.17,1537.88,4.19,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2025-06-18,2026-10-23,5,4,5,545,14,Champions
+CUST-10518,70,2,3159.22,1579.61,4.1,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Control_A,2025-02-26,2026-08-27,4,2,2,422,8,Potential Loyalists
+CUST-10519,295,4,3928.93,982.23,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-05-08,2026-01-14,2,3,3,233,8,At Risk (High Value)
+CUST-10520,91,7,7286.36,1040.91,3.89,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-04-21,2026-08-06,3,4,4,344,11,Loyal Customers
+CUST-10521,95,4,4114.75,1028.69,4.12,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2025-01-16,2026-08-02,3,3,3,333,9,Hibernating / Churned
+CUST-10522,83,4,4450.69,1112.67,4.27,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Variant_B,2025-03-22,2026-08-14,3,3,3,333,9,Hibernating / Churned
+CUST-10523,654,1,2138.35,2138.35,2.7,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-01-20,2025-01-20,1,1,2,112,4,Hibernating / Churned
+CUST-10524,93,2,2520.18,1260.09,4.3,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2026-04-15,2026-08-04,3,2,2,322,7,Hibernating / Churned
+CUST-10525,88,1,1546.91,1546.91,3.7,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2026-08-09,2026-08-09,3,1,1,311,5,Hibernating / Churned
+CUST-10526,212,5,6403.56,1280.71,4.2,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-03-03,2026-04-07,2,4,4,244,10,At Risk (High Value)
+CUST-10527,33,1,1589.06,1589.06,5.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2026-10-03,2026-10-03,5,1,1,511,7,Hibernating / Churned
+CUST-10529,131,2,1200.57,600.29,4.1,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2026-06-24,2026-06-27,3,2,1,321,6,Hibernating / Churned
+CUST-10530,94,5,4883.51,976.7,4.46,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-04-03,2026-08-03,3,4,3,343,10,Loyal Customers
+CUST-10531,210,3,4090.76,1363.59,3.93,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Variant_B,2025-12-09,2026-04-09,2,2,3,223,7,Hibernating / Churned
+CUST-10532,177,2,2727.04,1363.52,3.75,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Control_A,2026-03-31,2026-05-12,2,2,2,222,6,Hibernating / Churned
+CUST-10533,331,2,1300.62,650.31,3.55,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-08-04,2025-12-09,1,2,1,121,4,Hibernating / Churned
+CUST-10534,76,8,8933.99,1116.75,4.35,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2024-11-21,2026-08-21,4,5,5,455,14,Champions
+CUST-10536,173,2,2701.22,1350.61,4.5,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2025-03-12,2026-05-16,2,2,2,222,6,Hibernating / Churned
+CUST-10537,415,5,4976.03,995.21,4.46,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-01-13,2025-09-16,1,4,3,143,8,At Risk (High Value)
+CUST-10538,49,7,9353.1,1336.16,4.43,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2024-12-05,2026-09-17,4,4,5,445,13,Champions
+CUST-10539,155,3,3007.69,1002.56,3.37,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-11-09,2026-06-03,3,2,2,322,7,Hibernating / Churned
+CUST-10540,65,8,9229.49,1153.69,3.79,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Control_A,2024-12-11,2026-09-01,4,5,5,455,14,Champions
+CUST-10541,138,9,9234.24,1026.03,4.17,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-01-18,2026-06-20,3,5,5,355,13,Loyal Customers
+CUST-10542,123,8,11116.71,1389.59,3.82,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-02-17,2026-07-05,3,5,5,355,13,Loyal Customers
+CUST-10543,89,8,8562.64,1070.33,3.91,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-04-17,2026-08-08,3,5,5,355,13,Loyal Customers
+CUST-10545,111,8,11017.86,1377.23,3.92,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-11-11,2026-07-17,3,5,5,355,13,Loyal Customers
+CUST-10546,77,1,1516.55,1516.55,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2026-08-20,2026-08-20,4,1,1,411,6,Hibernating / Churned
+CUST-10548,153,2,3302.72,1651.36,3.8,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2026-01-26,2026-06-05,3,2,2,322,7,Hibernating / Churned
+CUST-10549,68,10,9448.38,944.84,4.22,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-03-18,2026-08-29,4,5,5,455,14,Champions
+CUST-10550,34,6,7516.81,1252.8,4.35,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2024-11-20,2026-10-02,5,4,4,544,13,Champions
+CUST-10551,28,4,4774.7,1193.68,4.35,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2024-11-20,2026-10-08,5,3,3,533,11,Potential Loyalists
+CUST-10552,129,1,1386.36,1386.36,3.9,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2026-06-29,2026-06-29,3,1,1,311,5,Hibernating / Churned
+CUST-10553,45,6,6465.24,1077.54,3.75,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-03-13,2026-09-21,4,4,4,444,12,Champions
+CUST-10555,6,11,14656.67,1332.42,4.27,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2024-11-11,2026-10-30,5,5,5,555,15,Champions
+CUST-10556,148,4,4943.84,1235.96,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2024-12-13,2026-06-10,3,3,3,333,9,Hibernating / Churned
+CUST-10557,51,2,2339.41,1169.7,4.25,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2026-07-12,2026-09-15,4,2,2,422,8,Potential Loyalists
+CUST-10558,289,2,2209.76,1104.88,4.25,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-02-03,2026-01-20,2,2,2,222,6,Hibernating / Churned
+CUST-10559,171,4,6330.36,1582.59,4.0,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-09-15,2026-05-18,2,3,4,234,9,At Risk (High Value)
+CUST-10560,7,3,5098.27,1699.42,3.73,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-12-23,2026-10-29,5,2,3,523,10,Potential Loyalists
+CUST-10561,62,6,7422.82,1237.14,4.43,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-02-08,2026-09-04,4,4,4,444,12,Champions
+CUST-10562,153,12,9799.33,816.61,3.86,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-12-20,2026-06-05,3,5,5,355,13,Loyal Customers
+CUST-10563,73,3,3434.47,1144.82,3.73,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-05-03,2026-08-24,4,2,2,422,8,Potential Loyalists
+CUST-10564,287,1,867.24,867.24,5.0,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2026-01-22,2026-01-22,2,1,1,211,4,Hibernating / Churned
+CUST-10566,613,1,1441.04,1441.04,4.7,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-03-02,2025-03-02,1,1,1,111,3,Hibernating / Churned
+CUST-10567,90,6,8421.51,1403.58,4.18,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2024-11-12,2026-08-07,3,4,4,344,11,Loyal Customers
+CUST-10568,525,4,6134.22,1533.56,4.35,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Variant_B,2024-11-13,2025-05-29,1,3,4,134,8,At Risk (High Value)
+CUST-10570,300,1,2114.97,2114.97,3.4,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2026-01-09,2026-01-09,1,1,2,112,4,Hibernating / Churned
+CUST-10571,64,2,1837.68,918.84,4.05,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-08-14,2026-09-02,4,2,1,421,7,Potential Loyalists
+CUST-10572,257,1,985.79,985.79,3.6,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2026-02-21,2026-02-21,2,1,1,211,4,Hibernating / Churned
+CUST-10573,281,3,3524.49,1174.83,4.13,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2024-12-09,2026-01-28,2,2,2,222,6,Hibernating / Churned
+CUST-10574,263,5,4650.19,930.04,3.5,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2024-11-11,2026-02-15,2,4,3,243,9,At Risk (High Value)
+CUST-10575,17,6,5199.3,866.55,3.82,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2025-08-13,2026-10-19,5,4,3,543,12,Loyal Customers
+CUST-10576,110,7,9407.25,1343.89,3.94,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-11-11,2026-07-18,3,4,5,345,12,Loyal Customers
+CUST-10577,42,7,5663.32,809.05,4.01,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Control_A,2025-02-18,2026-09-24,4,4,4,444,12,Champions
+CUST-10578,334,5,6352.85,1270.57,3.76,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2024-11-14,2025-12-06,1,4,4,144,9,At Risk (High Value)
+CUST-10579,452,1,732.46,732.46,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-08-10,2025-08-10,1,1,1,111,3,Hibernating / Churned
+CUST-10580,4,1,757.99,757.99,4.2,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2026-11-01,2026-11-01,5,1,1,511,7,Hibernating / Churned
+CUST-10581,155,11,9185.12,835.01,3.89,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Control_A,2025-01-13,2026-06-03,3,5,5,355,13,Loyal Customers
+CUST-10582,160,4,3728.6,932.15,4.35,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-05-12,2026-05-29,2,3,3,233,8,At Risk (High Value)
+CUST-10583,17,8,11847.45,1480.93,3.94,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-02-11,2026-10-19,5,5,5,555,15,Champions
+CUST-10584,34,4,5285.48,1321.37,3.97,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-06-19,2026-10-02,5,3,3,533,11,Potential Loyalists
+CUST-10585,111,9,7730.44,858.94,3.79,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-01-20,2026-07-17,3,5,4,354,12,Loyal Customers
+CUST-10586,562,1,1568.76,1568.76,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-04-22,2025-04-22,1,1,1,111,3,Hibernating / Churned
+CUST-10587,320,2,2957.47,1478.74,4.25,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-08-15,2025-12-20,1,2,2,122,5,Hibernating / Churned
+CUST-10588,95,7,6802.91,971.84,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-12-26,2026-08-02,3,4,4,344,11,Loyal Customers
+CUST-10589,131,11,17577.37,1597.94,4.26,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-11-24,2026-06-27,3,5,5,355,13,Loyal Customers
+CUST-10590,293,2,2566.43,1283.21,3.45,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-11-14,2026-01-16,2,2,2,222,6,Hibernating / Churned
+CUST-10591,646,1,626.86,626.86,4.2,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-01-28,2025-01-28,1,1,1,111,3,Hibernating / Churned
+CUST-10592,30,3,4170.84,1390.28,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-12-01,2026-10-06,5,2,3,523,10,Potential Loyalists
+CUST-10593,21,8,10286.24,1285.78,3.94,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-11-17,2026-10-15,5,5,5,555,15,Champions
+CUST-10594,63,7,6521.38,931.63,3.63,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2024-12-02,2026-09-03,4,4,4,444,12,Champions
+CUST-10595,45,5,6082.71,1216.54,4.42,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-06-01,2026-09-21,4,4,4,444,12,Champions
+CUST-10596,16,9,10121.18,1124.58,3.92,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-03-15,2026-10-20,5,5,5,555,15,Champions
+CUST-10597,36,5,3457.09,691.42,3.92,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-03-11,2026-09-30,5,4,2,542,11,Loyal Customers
+CUST-10598,324,3,3269.55,1089.85,4.6,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-11-26,2025-12-16,1,2,2,122,5,Hibernating / Churned
+CUST-10600,100,2,2704.25,1352.12,4.65,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-11-20,2026-07-28,3,2,2,322,7,Hibernating / Churned
+CUST-10601,16,3,4688.14,1562.71,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-11-10,2026-10-20,5,2,3,523,10,Potential Loyalists
+CUST-10602,169,1,868.17,868.17,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2026-05-20,2026-05-20,2,1,1,211,4,Hibernating / Churned
+CUST-10604,49,5,6963.48,1392.7,4.04,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-11-13,2026-09-17,4,4,4,444,12,Champions
+CUST-10605,21,7,9517.63,1359.66,4.1,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-08-02,2026-10-15,5,4,5,545,14,Champions
+CUST-10606,450,2,2357.07,1178.54,4.15,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-03-06,2025-08-12,1,2,2,122,5,Hibernating / Churned
+CUST-10608,8,3,3772.13,1257.38,4.23,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-01-31,2026-10-28,5,2,3,523,10,Potential Loyalists
+CUST-10609,43,9,8307.04,923.0,3.69,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2024-11-30,2026-09-23,4,5,4,454,13,Champions
+CUST-10610,152,4,5615.73,1403.93,3.88,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-06-11,2026-06-06,3,3,4,334,10,Hibernating / Churned
+CUST-10611,57,6,9289.58,1548.26,4.07,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2024-12-13,2026-09-09,4,4,5,445,13,Champions
+CUST-10612,82,6,5167.52,861.25,3.63,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-03-03,2026-08-15,3,4,3,343,10,Loyal Customers
+CUST-10613,179,1,1300.91,1300.91,3.5,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2026-05-10,2026-05-10,2,1,1,211,4,Hibernating / Churned
+CUST-10614,149,5,5218.0,1043.6,4.28,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2025-02-18,2026-06-09,3,4,3,343,10,Loyal Customers
+CUST-10615,38,9,9580.38,1064.49,3.58,Toronto Hub,Canada,43.6532,-79.3832,Email Campaign,Control_A,2025-01-22,2026-09-28,4,5,5,455,14,Champions
+CUST-10616,208,5,7160.15,1432.03,3.68,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-11-17,2026-04-11,2,4,4,244,10,At Risk (High Value)
+CUST-10617,146,6,6108.28,1018.05,4.15,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-01-15,2026-06-12,3,4,4,344,11,Loyal Customers
+CUST-10618,276,3,2332.88,777.63,3.6,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2024-12-03,2026-02-02,2,2,2,222,6,Hibernating / Churned
+CUST-10619,56,10,11665.66,1166.57,4.13,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-04-01,2026-09-10,4,5,5,455,14,Champions
+CUST-10620,35,6,6221.08,1036.85,3.92,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-01-02,2026-10-01,5,4,4,544,13,Champions
+CUST-10621,54,9,10550.38,1172.26,3.91,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-12-02,2026-09-12,4,5,5,455,14,Champions
+CUST-10622,75,11,13172.25,1197.48,4.18,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-01-16,2026-08-22,4,5,5,455,14,Champions
+CUST-10623,127,8,9163.57,1145.45,3.95,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2024-11-08,2026-07-01,3,5,5,355,13,Loyal Customers
+CUST-10625,39,7,7195.54,1027.93,4.24,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-04-10,2026-09-27,4,4,4,444,12,Champions
+CUST-10626,162,3,2928.74,976.25,4.37,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-11-07,2026-05-27,2,2,2,222,6,Hibernating / Churned
+CUST-10627,11,4,5961.09,1490.27,4.45,New York North,United States,40.7128,-74.006,Email Campaign,Variant_B,2025-05-31,2026-10-25,5,3,4,534,12,Potential Loyalists
+CUST-10628,331,2,2139.54,1069.77,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-03-12,2025-12-09,1,2,2,122,5,Hibernating / Churned
+CUST-10629,93,3,3416.12,1138.71,4.53,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-12-10,2026-08-04,3,2,2,322,7,Hibernating / Churned
+CUST-10630,208,2,1176.35,588.17,3.5,New York North,United States,40.7128,-74.006,Email Campaign,Control_A,2026-03-06,2026-04-11,2,2,1,221,5,Hibernating / Churned
+CUST-10631,52,12,13777.19,1148.1,3.86,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2024-11-06,2026-09-14,4,5,5,455,14,Champions
+CUST-10632,45,4,5035.57,1258.89,4.27,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-11-18,2026-09-21,4,3,3,433,10,Potential Loyalists
+CUST-10633,248,5,5460.28,1092.06,3.78,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2024-12-01,2026-03-02,2,4,4,244,10,At Risk (High Value)
+CUST-10634,29,12,11747.71,978.98,3.98,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-12-11,2026-10-07,5,5,5,555,15,Champions
+CUST-10637,553,1,912.05,912.05,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-05-01,2025-05-01,1,1,1,111,3,Hibernating / Churned
+CUST-10638,33,6,6423.8,1070.63,3.75,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2024-11-16,2026-10-03,5,4,4,544,13,Champions
+CUST-10640,296,4,4454.22,1113.56,3.53,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-01-14,2026-01-13,1,3,3,133,7,At Risk (High Value)
+CUST-10641,339,5,7060.34,1412.07,4.38,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-04-21,2025-12-01,1,4,4,144,9,At Risk (High Value)
+CUST-10642,141,4,5244.33,1311.08,3.82,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-02-08,2026-06-17,3,3,3,333,9,Hibernating / Churned
+CUST-10643,164,5,6266.34,1253.27,3.58,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-04-22,2026-05-25,2,4,4,244,10,At Risk (High Value)
+CUST-10644,612,3,2307.24,769.08,4.47,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-02-14,2025-03-03,1,2,2,122,5,Hibernating / Churned
+CUST-10645,665,1,1683.55,1683.55,4.2,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2025-01-09,2025-01-09,1,1,1,111,3,Hibernating / Churned
+CUST-10646,55,7,8126.71,1160.96,4.19,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-04-09,2026-09-11,4,4,4,444,12,Champions
+CUST-10647,279,2,1148.32,574.16,4.2,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2026-01-20,2026-01-30,2,2,1,221,5,Hibernating / Churned
+CUST-10648,324,3,4822.39,1607.46,4.33,New York North,United States,40.7128,-74.006,Email Campaign,Control_A,2024-12-15,2025-12-16,1,2,3,123,6,Hibernating / Churned
+CUST-10649,30,13,15098.6,1161.43,3.65,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-01-04,2026-10-06,5,5,5,555,15,Champions
+CUST-10650,19,5,5788.24,1157.65,3.82,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-01-10,2026-10-17,5,4,4,544,13,Champions
+CUST-10651,4,2,2137.69,1068.84,3.15,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-11-14,2026-11-01,5,2,2,522,9,Potential Loyalists
+CUST-10653,144,5,4395.49,879.1,4.1,New York North,United States,40.7128,-74.006,Email Campaign,Control_A,2025-06-20,2026-06-14,3,4,3,343,10,Loyal Customers
+CUST-10654,43,3,2398.22,799.41,4.2,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Variant_B,2025-09-23,2026-09-23,4,2,2,422,8,Potential Loyalists
+CUST-10655,47,5,6313.13,1262.63,4.14,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-12-08,2026-09-19,4,4,4,444,12,Champions
+CUST-10656,128,8,9683.74,1210.47,4.22,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-01-03,2026-06-30,3,5,5,355,13,Loyal Customers
+CUST-10657,62,9,11621.93,1291.33,3.88,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-11-26,2026-09-04,4,5,5,455,14,Champions
+CUST-10659,32,4,6390.86,1597.72,4.45,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2026-02-03,2026-10-04,5,3,4,534,12,Potential Loyalists
+CUST-10660,182,4,3062.48,765.62,3.6,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2024-12-11,2026-05-07,2,3,2,232,7,At Risk (High Value)
+CUST-10661,28,7,5783.2,826.17,3.63,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Control_A,2025-03-09,2026-10-08,5,4,4,544,13,Champions
+CUST-10662,53,5,5757.5,1151.5,3.98,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-05-27,2026-09-13,4,4,4,444,12,Champions
+CUST-10663,203,9,9023.25,1002.58,4.28,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-11-07,2026-04-16,2,5,5,255,12,At Risk (High Value)
+CUST-10664,181,7,7306.39,1043.77,4.37,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-08-21,2026-05-08,2,4,4,244,10,At Risk (High Value)
+CUST-10665,35,4,4754.04,1188.51,4.03,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-05-21,2026-10-01,5,3,3,533,11,Potential Loyalists
+CUST-10666,32,3,3737.43,1245.81,3.4,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-11-11,2026-10-04,5,2,3,523,10,Potential Loyalists
+CUST-10667,92,1,1595.93,1595.93,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2026-08-05,2026-08-05,3,1,1,311,5,Hibernating / Churned
+CUST-10668,248,4,3293.31,823.33,3.88,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-02-10,2026-03-02,2,3,2,232,7,At Risk (High Value)
+CUST-10670,39,10,12749.25,1274.93,4.11,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-05-16,2026-09-27,4,5,5,455,14,Champions
+CUST-10671,302,3,2983.4,994.47,3.9,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2025-04-25,2026-01-07,1,2,2,122,5,Hibernating / Churned
+CUST-10672,28,8,7684.65,960.58,4.05,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-03-24,2026-10-08,5,5,4,554,14,Champions
+CUST-10673,201,2,1338.24,669.12,3.95,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2025-08-27,2026-04-18,2,2,1,221,5,Hibernating / Churned
+CUST-10674,39,4,3288.96,822.24,4.5,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2024-11-05,2026-09-27,4,3,2,432,9,Potential Loyalists
+CUST-10675,495,2,2170.19,1085.1,3.9,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Variant_B,2025-01-06,2025-06-28,1,2,2,122,5,Hibernating / Churned
+CUST-10676,228,10,15312.79,1531.28,4.02,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-12-23,2026-03-22,2,5,5,255,12,At Risk (High Value)
+CUST-10678,65,2,1379.55,689.78,3.85,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Control_A,2026-07-19,2026-09-01,4,2,1,421,7,Potential Loyalists
+CUST-10679,261,6,5605.73,934.29,3.83,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2024-12-19,2026-02-17,2,4,4,244,10,At Risk (High Value)
+CUST-10680,193,6,7072.17,1178.7,4.05,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2025-01-15,2026-04-26,2,4,4,244,10,At Risk (High Value)
+CUST-10681,46,4,4444.11,1111.03,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-09-05,2026-09-20,4,3,3,433,10,Potential Loyalists
+CUST-10682,33,3,5056.1,1685.37,3.43,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-10-07,2026-10-03,5,2,3,523,10,Potential Loyalists
+CUST-10683,40,9,12076.53,1341.84,4.3,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-04-05,2026-09-26,4,5,5,455,14,Champions
+CUST-10684,227,5,5435.44,1087.09,3.78,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-06-30,2026-03-23,2,4,3,243,9,At Risk (High Value)
+CUST-10685,19,1,861.4,861.4,3.2,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2026-10-17,2026-10-17,5,1,1,511,7,Hibernating / Churned
+CUST-10686,27,3,1886.3,628.77,4.23,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2024-12-10,2026-10-09,5,2,1,521,8,Potential Loyalists
+CUST-10687,469,3,2279.66,759.89,3.17,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-02-16,2025-07-24,1,2,2,122,5,Hibernating / Churned
+CUST-10689,68,2,2651.85,1325.92,3.7,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-12-20,2026-08-29,4,2,2,422,8,Potential Loyalists
+CUST-10690,24,10,10259.45,1025.95,3.98,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2024-11-07,2026-10-12,5,5,5,555,15,Champions
+CUST-10691,68,10,13046.31,1304.63,4.01,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2024-11-05,2026-08-29,4,5,5,455,14,Champions
+CUST-10692,84,3,3564.06,1188.02,4.03,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-03-13,2026-08-13,3,2,3,323,8,Hibernating / Churned
+CUST-10693,83,4,3412.99,853.25,4.78,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-03-22,2026-08-14,3,3,2,332,8,Hibernating / Churned
+CUST-10694,81,9,9730.75,1081.19,3.73,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-11-27,2026-08-16,3,5,5,355,13,Loyal Customers
+CUST-10695,375,2,3522.9,1761.45,4.1,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2024-12-11,2025-10-26,1,2,2,122,5,Hibernating / Churned
+CUST-10696,60,14,20566.0,1469.0,4.09,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2024-12-16,2026-09-06,4,5,5,455,14,Champions
+CUST-10697,83,4,5933.28,1483.32,3.85,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-01-01,2026-08-14,3,3,4,334,10,Hibernating / Churned
+CUST-10698,15,1,1136.48,1136.48,4.8,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2026-10-21,2026-10-21,5,1,1,511,7,Hibernating / Churned
+CUST-10700,33,1,749.98,749.98,4.7,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2026-10-03,2026-10-03,5,1,1,511,7,Hibernating / Churned
+CUST-10701,48,6,5259.16,876.53,4.15,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-01-23,2026-09-18,4,4,3,443,11,Loyal Customers
+CUST-10702,30,6,7469.28,1244.88,4.27,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-01-23,2026-10-06,5,4,4,544,13,Champions
+CUST-10703,324,1,923.04,923.04,3.8,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-12-16,2025-12-16,1,1,1,111,3,Hibernating / Churned
+CUST-10704,32,5,6989.82,1397.96,4.02,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-12-21,2026-10-04,5,4,4,544,13,Champions
+CUST-10705,141,7,6556.3,936.61,3.77,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Control_A,2025-02-02,2026-06-17,3,4,4,344,11,Loyal Customers
+CUST-10706,89,5,5016.87,1003.37,4.26,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2025-01-13,2026-08-08,3,4,3,343,10,Loyal Customers
+CUST-10707,15,11,12055.73,1095.98,3.8,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2024-12-01,2026-10-21,5,5,5,555,15,Champions
+CUST-10708,311,2,1318.64,659.32,4.75,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-05-10,2025-12-29,1,2,1,121,4,Hibernating / Churned
+CUST-10709,37,1,915.77,915.77,4.2,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2026-09-29,2026-09-29,4,1,1,411,6,Hibernating / Churned
+CUST-10710,18,6,6879.66,1146.61,4.38,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2024-11-18,2026-10-18,5,4,4,544,13,Champions
+CUST-10711,66,4,4225.4,1056.35,3.87,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2025-02-10,2026-08-31,4,3,3,433,10,Potential Loyalists
+CUST-10713,22,6,6841.3,1140.22,3.75,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-03-31,2026-10-14,5,4,4,544,13,Champions
+CUST-10714,146,3,3666.67,1222.22,3.93,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-11-13,2026-06-12,3,2,3,323,8,Hibernating / Churned
+CUST-10715,221,5,5632.31,1126.46,3.92,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2025-03-29,2026-03-29,2,4,4,244,10,At Risk (High Value)
+CUST-10717,35,3,4212.63,1404.21,3.47,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Control_A,2025-05-06,2026-10-01,5,2,3,523,10,Potential Loyalists
+CUST-10718,109,3,3017.91,1005.97,3.87,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-08-25,2026-07-19,3,2,2,322,7,Hibernating / Churned
+CUST-10719,255,3,2545.96,848.65,3.87,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-08-11,2026-02-23,2,2,2,222,6,Hibernating / Churned
+CUST-10720,98,3,2671.91,890.64,3.53,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Control_A,2025-05-25,2026-07-30,3,2,2,322,7,Hibernating / Churned
+CUST-10721,12,2,2315.35,1157.68,3.65,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2026-06-05,2026-10-24,5,2,2,522,9,Potential Loyalists
+CUST-10722,127,11,11034.03,1003.09,3.75,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-02-02,2026-07-01,3,5,5,355,13,Loyal Customers
+CUST-10723,182,6,5714.45,952.41,3.95,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2024-12-29,2026-05-07,2,4,4,244,10,At Risk (High Value)
+CUST-10724,199,6,7553.81,1258.97,4.13,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-06-22,2026-04-20,2,4,4,244,10,At Risk (High Value)
+CUST-10725,188,1,942.16,942.16,4.4,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2026-05-01,2026-05-01,2,1,1,211,4,Hibernating / Churned
+CUST-10726,300,2,1697.02,848.51,4.45,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-02-25,2026-01-09,1,2,1,121,4,Hibernating / Churned
+CUST-10727,50,8,7451.76,931.47,4.06,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2024-11-22,2026-09-16,4,5,4,454,13,Champions
+CUST-10728,13,9,12972.1,1441.34,4.22,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-02-07,2026-10-23,5,5,5,555,15,Champions
+CUST-10729,64,4,4539.52,1134.88,4.68,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-06-06,2026-09-02,4,3,3,433,10,Potential Loyalists
+CUST-10730,186,4,6184.05,1546.01,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-01,2026-05-03,2,3,4,234,9,At Risk (High Value)
+CUST-10731,134,5,5064.55,1012.91,4.32,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-02-05,2026-06-24,3,4,3,343,10,Loyal Customers
+CUST-10732,83,6,8409.87,1401.64,4.15,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-04-19,2026-08-14,3,4,4,344,11,Loyal Customers
+CUST-10733,416,2,1662.77,831.38,4.35,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-04-10,2025-09-15,1,2,1,121,4,Hibernating / Churned
+CUST-10734,264,3,2995.19,998.4,3.8,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-05-26,2026-02-14,2,2,2,222,6,Hibernating / Churned
+CUST-10735,130,2,2253.95,1126.97,4.4,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Variant_B,2025-07-12,2026-06-28,3,2,2,322,7,Hibernating / Churned
+CUST-10736,17,1,650.94,650.94,4.3,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2026-10-19,2026-10-19,5,1,1,511,7,Hibernating / Churned
+CUST-10737,57,6,7916.51,1319.42,4.7,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2025-04-25,2026-09-09,4,4,4,444,12,Champions
+CUST-10738,481,1,2064.73,2064.73,4.2,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-07-12,2025-07-12,1,1,2,112,4,Hibernating / Churned
+CUST-10739,296,4,3420.85,855.21,4.07,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-03-16,2026-01-13,1,3,2,132,6,At Risk (High Value)
+CUST-10742,58,8,10910.95,1363.87,4.12,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2024-12-25,2026-09-08,4,5,5,455,14,Champions
+CUST-10743,125,6,6445.29,1074.22,4.18,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-04-20,2026-07-03,3,4,4,344,11,Loyal Customers
+CUST-10744,259,1,583.62,583.62,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2026-02-19,2026-02-19,2,1,1,211,4,Hibernating / Churned
+CUST-10745,407,2,2410.86,1205.43,3.8,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2025-05-24,2025-09-24,1,2,2,122,5,Hibernating / Churned
+CUST-10746,207,3,4210.57,1403.52,4.33,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-12-26,2026-04-12,2,2,3,223,7,Hibernating / Churned
+CUST-10747,54,7,9338.78,1334.11,4.19,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-02-15,2026-09-12,4,4,5,445,13,Champions
+CUST-10749,233,6,4850.5,808.42,3.62,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2025-02-25,2026-03-17,2,4,3,243,9,At Risk (High Value)
+CUST-10750,696,1,1585.1,1585.1,3.6,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-12-09,2024-12-09,1,1,1,111,3,Hibernating / Churned
+CUST-10751,175,4,3222.33,805.58,3.25,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2024-12-13,2026-05-14,2,3,2,232,7,At Risk (High Value)
+CUST-10753,84,6,6106.61,1017.77,4.1,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-02-22,2026-08-13,3,4,4,344,11,Loyal Customers
+CUST-10754,45,5,5441.33,1088.27,3.88,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-03-29,2026-09-21,4,4,3,443,11,Loyal Customers
+CUST-10755,249,4,3462.8,865.7,4.35,New York North,United States,40.7128,-74.006,Email Campaign,Variant_B,2025-01-27,2026-03-01,2,3,2,232,7,At Risk (High Value)
+CUST-10756,263,4,7423.66,1855.92,4.15,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-07-22,2026-02-15,2,3,4,234,9,At Risk (High Value)
+CUST-10757,6,7,6859.57,979.94,3.89,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2024-12-06,2026-10-30,5,4,4,544,13,Champions
+CUST-10759,124,1,781.7,781.7,3.8,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2026-07-04,2026-07-04,3,1,1,311,5,Hibernating / Churned
+CUST-10760,33,8,8519.94,1064.99,3.58,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-12-17,2026-10-03,5,5,5,555,15,Champions
+CUST-10761,98,10,11384.63,1138.46,3.9,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-11-24,2026-07-30,3,5,5,355,13,Loyal Customers
+CUST-10762,29,3,2184.75,728.25,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-04-13,2026-10-07,5,2,2,522,9,Potential Loyalists
+CUST-10763,314,2,3014.8,1507.4,4.2,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-11-04,2025-12-26,1,2,2,122,5,Hibernating / Churned
+CUST-10764,65,8,11896.06,1487.01,3.68,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-07-27,2026-09-01,4,5,5,455,14,Champions
+CUST-10765,328,1,1260.2,1260.2,3.3,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-12-12,2025-12-12,1,1,1,111,3,Hibernating / Churned
+CUST-10766,449,1,1389.53,1389.53,4.1,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-08-13,2025-08-13,1,1,1,111,3,Hibernating / Churned
+CUST-10767,36,13,10390.01,799.23,3.86,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2024-11-10,2026-09-30,5,5,5,555,15,Champions
+CUST-10768,50,6,6820.73,1136.79,4.4,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2025-10-22,2026-09-16,4,4,4,444,12,Champions
+CUST-10770,295,4,4494.03,1123.51,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-01-05,2026-01-14,2,3,3,233,8,At Risk (High Value)
+CUST-10771,65,4,6771.89,1692.97,3.65,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2025-04-10,2026-09-01,4,3,4,434,11,Potential Loyalists
+CUST-10772,158,6,5325.49,887.58,3.92,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-01-11,2026-05-31,2,4,3,243,9,At Risk (High Value)
+CUST-10773,64,3,3276.34,1092.11,3.7,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-04-02,2026-09-02,4,2,2,422,8,Potential Loyalists
+CUST-10774,290,2,926.66,463.33,4.6,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-11-05,2026-01-19,2,2,1,221,5,Hibernating / Churned
+CUST-10775,198,4,3613.75,903.44,3.42,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-04-17,2026-04-21,2,3,3,233,8,At Risk (High Value)
+CUST-10776,140,1,1505.98,1505.98,4.9,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2026-06-18,2026-06-18,3,1,1,311,5,Hibernating / Churned
+CUST-10777,724,1,2111.21,2111.21,4.4,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2024-11-11,2024-11-11,1,1,2,112,4,Hibernating / Churned
+CUST-10778,35,10,9903.62,990.36,4.42,New York North,United States,40.7128,-74.006,Email Campaign,Variant_B,2025-06-02,2026-10-01,5,5,5,555,15,Champions
+CUST-10779,99,2,2510.42,1255.21,4.1,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2025-10-16,2026-07-29,3,2,2,322,7,Hibernating / Churned
+CUST-10780,75,7,5986.72,855.25,3.97,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2024-12-19,2026-08-22,4,4,4,444,12,Champions
+CUST-10781,419,1,897.92,897.92,4.0,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-09-12,2025-09-12,1,1,1,111,3,Hibernating / Churned
+CUST-10782,278,4,5165.62,1291.4,3.95,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-03-09,2026-01-31,2,3,3,233,8,At Risk (High Value)
+CUST-10783,10,5,3740.42,748.08,3.7,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-12-27,2026-10-26,5,4,3,543,12,Loyal Customers
+CUST-10785,80,6,8065.76,1344.29,4.13,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2024-12-10,2026-08-17,3,4,4,344,11,Loyal Customers
+CUST-10786,27,4,6307.62,1576.9,3.5,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-03-23,2026-10-09,5,3,4,534,12,Potential Loyalists
+CUST-10787,392,2,1997.48,998.74,4.55,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-01-09,2025-10-09,1,2,2,122,5,Hibernating / Churned
+CUST-10788,32,9,11573.89,1285.99,3.96,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-01-04,2026-10-04,5,5,5,555,15,Champions
+CUST-10789,30,9,12721.11,1413.46,4.27,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2024-11-23,2026-10-06,5,5,5,555,15,Champions
+CUST-10790,298,4,4175.24,1043.81,3.97,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-06-08,2026-01-11,1,3,3,133,7,At Risk (High Value)
+CUST-10791,329,1,870.53,870.53,3.1,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-12-11,2025-12-11,1,1,1,111,3,Hibernating / Churned
+CUST-10792,299,2,2350.99,1175.49,4.7,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2026-01-05,2026-01-10,1,2,2,122,5,Hibernating / Churned
+CUST-10793,260,2,3401.87,1700.94,4.0,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-01-20,2026-02-18,2,2,2,222,6,Hibernating / Churned
+CUST-10794,111,2,2427.49,1213.74,3.65,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-08-16,2026-07-17,3,2,2,322,7,Hibernating / Churned
+CUST-10796,21,7,8596.82,1228.12,4.16,Toronto Hub,Canada,43.6532,-79.3832,Email Campaign,Variant_B,2024-11-20,2026-10-15,5,4,5,545,14,Champions
+CUST-10798,141,2,1670.68,835.34,3.7,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2026-05-18,2026-06-17,3,2,1,321,6,Hibernating / Churned
+CUST-10799,82,2,1504.34,752.17,3.35,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2025-12-10,2026-08-15,3,2,1,321,6,Hibernating / Churned
+CUST-10800,38,2,1357.28,678.64,4.15,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2026-07-09,2026-09-28,4,2,1,421,7,Potential Loyalists
+CUST-10801,57,2,2015.5,1007.75,4.45,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-06-05,2026-09-09,4,2,2,422,8,Potential Loyalists
+CUST-10802,115,1,1353.97,1353.97,3.8,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2026-07-13,2026-07-13,3,1,1,311,5,Hibernating / Churned
+CUST-10803,200,7,6615.29,945.04,4.47,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2024-12-28,2026-04-19,2,4,4,244,10,At Risk (High Value)
+CUST-10804,71,5,4813.41,962.68,4.22,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-02-09,2026-08-26,4,4,3,443,11,Loyal Customers
+CUST-10806,294,1,1241.8,1241.8,4.2,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Variant_B,2026-01-15,2026-01-15,2,1,1,211,4,Hibernating / Churned
+CUST-10807,130,13,16147.13,1242.09,4.12,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2024-11-07,2026-06-28,3,5,5,355,13,Loyal Customers
+CUST-10808,8,6,7230.03,1205.0,3.75,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-01-26,2026-10-28,5,4,4,544,13,Champions
+CUST-10809,141,3,3137.17,1045.72,4.43,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-11-15,2026-06-17,3,2,2,322,7,Hibernating / Churned
+CUST-10810,106,4,3582.3,895.58,3.95,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Control_A,2024-12-12,2026-07-22,3,3,3,333,9,Hibernating / Churned
+CUST-10813,105,2,2496.36,1248.18,3.8,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2026-05-24,2026-07-23,3,2,2,322,7,Hibernating / Churned
+CUST-10814,112,9,10418.32,1157.59,3.84,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2025-01-03,2026-07-16,3,5,5,355,13,Loyal Customers
+CUST-10815,73,3,3665.41,1221.8,3.5,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-09-28,2026-08-24,4,2,3,423,9,Potential Loyalists
+CUST-10816,23,12,14988.38,1249.03,3.78,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2025-02-02,2026-10-13,5,5,5,555,15,Champions
+CUST-10817,440,1,1162.8,1162.8,4.0,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2025-08-22,2025-08-22,1,1,1,111,3,Hibernating / Churned
+CUST-10819,268,5,5459.7,1091.94,4.26,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-07-02,2026-02-10,2,4,4,244,10,At Risk (High Value)
+CUST-10820,9,14,17034.86,1216.78,4.33,New York North,United States,40.7128,-74.006,Email Campaign,Variant_B,2024-11-17,2026-10-27,5,5,5,555,15,Champions
+CUST-10821,20,10,13937.9,1393.79,3.76,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-12-16,2026-10-16,5,5,5,555,15,Champions
+CUST-10822,96,1,548.06,548.06,3.8,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2026-08-01,2026-08-01,3,1,1,311,5,Hibernating / Churned
+CUST-10825,276,2,1795.93,897.96,4.45,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-10-21,2026-02-02,2,2,1,221,5,Hibernating / Churned
+CUST-10826,192,5,4661.88,932.38,4.2,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-02-18,2026-04-27,2,4,3,243,9,At Risk (High Value)
+CUST-10827,37,4,6099.17,1524.79,3.4,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2024-12-07,2026-09-29,4,3,4,434,11,Potential Loyalists
+CUST-10828,18,4,4402.33,1100.58,3.82,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-08-25,2026-10-18,5,3,3,533,11,Potential Loyalists
+CUST-10829,73,10,10898.04,1089.8,3.68,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2024-12-03,2026-08-24,4,5,5,455,14,Champions
+CUST-10830,270,3,3256.66,1085.55,4.8,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-10-06,2026-02-08,2,2,2,222,6,Hibernating / Churned
+CUST-10831,66,6,8474.68,1412.45,4.2,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2024-11-09,2026-08-31,4,4,5,445,13,Champions
+CUST-10832,44,2,2006.4,1003.2,3.95,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2026-08-28,2026-09-22,4,2,2,422,8,Potential Loyalists
+CUST-10833,95,3,2170.68,723.56,3.73,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2026-03-11,2026-08-02,3,2,2,322,7,Hibernating / Churned
+CUST-10835,493,3,3641.96,1213.99,4.03,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-01-12,2025-06-30,1,2,3,123,6,Hibernating / Churned
+CUST-10836,182,8,7929.92,991.24,4.12,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2024-11-13,2026-05-07,2,5,4,254,11,At Risk (High Value)
+CUST-10837,190,4,3564.24,891.06,4.38,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-12-19,2026-04-29,2,3,3,233,8,At Risk (High Value)
+CUST-10839,47,8,9570.65,1196.33,4.44,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2024-12-28,2026-09-19,4,5,5,455,14,Champions
+CUST-10840,377,3,2894.36,964.79,3.77,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2024-12-02,2025-10-24,1,2,2,122,5,Hibernating / Churned
+CUST-10841,349,5,6749.05,1349.81,3.7,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2024-11-06,2025-11-21,1,4,4,144,9,At Risk (High Value)
+CUST-10842,113,1,1476.68,1476.68,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2026-07-15,2026-07-15,3,1,1,311,5,Hibernating / Churned
+CUST-10843,110,2,1945.24,972.62,3.95,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Variant_B,2025-04-26,2026-07-18,3,2,2,322,7,Hibernating / Churned
+CUST-10845,75,6,7748.8,1291.47,3.75,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-01-09,2026-08-22,4,4,4,444,12,Champions
+CUST-10846,156,3,2603.04,867.68,3.37,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-11-27,2026-06-02,2,2,2,222,6,Hibernating / Churned
+CUST-10848,83,2,2694.66,1347.33,3.95,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-06-04,2026-08-14,3,2,2,322,7,Hibernating / Churned
+CUST-10850,73,9,11268.14,1252.02,4.08,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-12-01,2026-08-24,4,5,5,455,14,Champions
+CUST-10851,96,8,8344.76,1043.1,3.81,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-01-02,2026-08-01,3,5,4,354,12,Loyal Customers
+CUST-10852,231,2,1589.97,794.98,4.15,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2026-03-13,2026-03-19,2,2,1,221,5,Hibernating / Churned
+CUST-10853,86,6,7462.8,1243.8,3.9,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Control_A,2024-12-01,2026-08-11,3,4,4,344,11,Loyal Customers
+CUST-10854,543,1,696.32,696.32,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-05-11,2025-05-11,1,1,1,111,3,Hibernating / Churned
+CUST-10855,41,5,4936.21,987.24,3.96,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-11-13,2026-09-25,4,4,3,443,11,Loyal Customers
+CUST-10856,114,7,9725.79,1389.4,4.03,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-12-14,2026-07-14,3,5,5,355,13,Loyal Customers
+CUST-10857,52,4,4910.55,1227.64,3.75,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-04-13,2026-09-14,4,3,3,433,10,Potential Loyalists
+CUST-10858,482,2,3162.05,1581.02,3.8,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-03-27,2025-07-11,1,2,2,122,5,Hibernating / Churned
+CUST-10859,130,1,1458.13,1458.13,4.7,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2026-06-28,2026-06-28,3,1,1,311,5,Hibernating / Churned
+CUST-10860,59,3,2425.8,808.6,3.87,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2026-05-15,2026-09-07,4,2,2,422,8,Potential Loyalists
+CUST-10861,33,6,6031.16,1005.19,4.38,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-06-11,2026-10-03,5,4,4,544,13,Champions
+CUST-10863,41,11,12684.89,1153.17,3.79,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-01-27,2026-09-25,4,5,5,455,14,Champions
+CUST-10864,207,3,2679.82,893.27,4.27,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-11-20,2026-04-12,2,3,2,232,7,At Risk (High Value)
+CUST-10865,186,10,9742.65,974.26,3.58,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2024-11-19,2026-05-03,2,5,5,255,12,At Risk (High Value)
+CUST-10867,376,1,1666.64,1666.64,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-10-25,2025-10-25,1,1,1,111,3,Hibernating / Churned
+CUST-10870,69,7,6323.55,903.36,4.04,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2025-02-15,2026-08-28,4,5,4,454,13,Champions
+CUST-10871,16,6,7873.94,1312.32,3.7,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-01-22,2026-10-20,5,4,4,544,13,Champions
+CUST-10872,677,2,3463.74,1731.87,4.05,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2024-11-30,2024-12-28,1,2,2,122,5,Hibernating / Churned
+CUST-10873,200,4,4601.09,1150.27,4.05,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2025-01-22,2026-04-19,2,3,3,233,8,At Risk (High Value)
+CUST-10874,337,4,4181.42,1045.36,3.88,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2024-12-22,2025-12-03,1,3,3,133,7,At Risk (High Value)
+CUST-10876,500,1,616.22,616.22,4.4,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-06-23,2025-06-23,1,1,1,111,3,Hibernating / Churned
+CUST-10877,58,3,3033.52,1011.17,4.1,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2025-02-16,2026-09-08,4,3,2,432,9,Potential Loyalists
+CUST-10878,318,3,2236.46,745.49,4.07,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-02-19,2025-12-22,1,3,2,132,6,At Risk (High Value)
+CUST-10879,41,9,12952.88,1439.21,4.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-01-09,2026-09-25,4,5,5,455,14,Champions
+CUST-10880,406,2,1227.61,613.8,3.7,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-03-08,2025-09-25,1,2,1,121,4,Hibernating / Churned
+CUST-10881,33,7,6334.09,904.87,3.61,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-08-09,2026-10-03,5,5,4,554,14,Champions
+CUST-10882,476,1,1312.52,1312.52,4.6,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-07-17,2025-07-17,1,1,1,111,3,Hibernating / Churned
+CUST-10884,36,6,6267.71,1044.62,3.88,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2024-12-24,2026-09-30,5,4,4,544,13,Champions
+CUST-10885,58,7,9481.33,1354.48,3.71,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-02-25,2026-09-08,4,5,5,455,14,Champions
+CUST-10886,207,7,6299.49,899.93,3.86,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-03-14,2026-04-12,2,5,4,254,11,At Risk (High Value)
+CUST-10888,195,3,5515.46,1838.49,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-03-06,2026-04-24,2,3,4,234,9,At Risk (High Value)
+CUST-10889,152,8,9382.71,1172.84,3.89,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-01-20,2026-06-06,3,5,5,355,13,Loyal Customers
+CUST-10890,152,3,5600.18,1866.73,3.77,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-07-19,2026-06-06,3,3,4,334,10,Hibernating / Churned
+CUST-10891,256,4,6877.2,1719.3,4.38,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Variant_B,2024-12-08,2026-02-22,2,3,4,234,9,At Risk (High Value)
+CUST-10892,268,2,1785.52,892.76,3.4,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-07-31,2026-02-10,2,2,1,221,5,Hibernating / Churned
+CUST-10893,63,8,10569.66,1321.21,4.12,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2024-12-29,2026-09-03,4,5,5,455,14,Champions
+CUST-10894,111,4,5151.17,1287.79,3.48,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-11-02,2026-07-17,3,3,3,333,9,Hibernating / Churned
+CUST-10895,48,2,2651.09,1325.54,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2026-08-10,2026-09-18,4,2,2,422,8,Potential Loyalists
+CUST-10896,62,13,15770.77,1213.14,4.05,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2024-12-14,2026-09-04,4,5,5,455,14,Champions
+CUST-10898,14,8,10545.94,1318.24,3.69,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-11-25,2026-10-22,5,5,5,555,15,Champions
+CUST-10899,27,4,4486.9,1121.72,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-04-09,2026-10-09,5,3,3,533,11,Potential Loyalists
+CUST-10900,717,1,1269.83,1269.83,3.2,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2024-11-18,2024-11-18,1,1,1,111,3,Hibernating / Churned
+CUST-10901,109,5,6408.59,1281.72,4.18,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-05-31,2026-07-19,3,4,4,344,11,Loyal Customers
+CUST-10902,342,1,653.25,653.25,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-11-28,2025-11-28,1,1,1,111,3,Hibernating / Churned
+CUST-10903,144,5,7560.61,1512.12,3.46,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-01-08,2026-06-14,3,4,4,344,11,Loyal Customers
+CUST-10904,444,2,1424.36,712.18,3.65,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-07-20,2025-08-18,1,2,1,121,4,Hibernating / Churned
+CUST-10905,150,7,6929.14,989.88,4.03,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2024-11-23,2026-06-08,3,5,4,354,12,Loyal Customers
+CUST-10906,179,4,3141.33,785.33,3.98,New York North,United States,40.7128,-74.006,Email Campaign,Control_A,2025-02-03,2026-05-10,2,3,2,232,7,At Risk (High Value)
+CUST-10907,42,1,1219.93,1219.93,3.9,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2026-09-24,2026-09-24,4,1,1,411,6,Hibernating / Churned
+CUST-10909,269,2,2009.81,1004.9,4.2,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2024-11-16,2026-02-09,2,2,2,222,6,Hibernating / Churned
+CUST-10910,82,4,2853.42,713.36,4.35,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-06-26,2026-08-15,3,3,2,332,8,Hibernating / Churned
+CUST-10911,13,6,5331.81,888.64,4.05,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-08-17,2026-10-23,5,4,3,543,12,Loyal Customers
+CUST-10912,52,8,9244.7,1155.59,4.01,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-01-13,2026-09-14,4,5,5,455,14,Champions
+CUST-10913,302,5,4141.33,828.27,3.62,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2025-05-15,2026-01-07,1,4,3,143,8,At Risk (High Value)
+CUST-10914,166,9,9002.57,1000.29,3.93,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-01-22,2026-05-23,2,5,5,255,12,At Risk (High Value)
+CUST-10915,383,3,3007.45,1002.48,3.83,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2024-11-22,2025-10-18,1,3,2,132,6,At Risk (High Value)
+CUST-10916,83,4,5599.82,1399.96,3.72,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-11-28,2026-08-14,3,3,4,334,10,Hibernating / Churned
+CUST-10918,329,4,4131.93,1032.98,4.35,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2024-12-10,2025-12-11,1,3,3,133,7,At Risk (High Value)
+CUST-10919,291,2,3069.5,1534.75,4.15,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-06-20,2026-01-18,2,2,2,222,6,Hibernating / Churned
+CUST-10920,59,8,8909.16,1113.64,4.25,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Variant_B,2024-12-26,2026-09-07,4,5,5,455,14,Champions
+CUST-10921,219,4,4226.93,1056.73,3.38,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2024-11-11,2026-03-31,2,3,3,233,8,At Risk (High Value)
+CUST-10922,248,1,1677.87,1677.87,4.9,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Variant_B,2026-03-02,2026-03-02,2,1,1,211,4,Hibernating / Churned
+CUST-10923,14,16,23309.66,1456.85,4.18,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2024-11-18,2026-10-22,5,5,5,555,15,Champions
+CUST-10924,63,2,1728.42,864.21,4.05,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Variant_B,2026-08-14,2026-09-03,4,2,1,421,7,Potential Loyalists
+CUST-10925,85,7,9381.02,1340.15,4.19,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-12-07,2026-08-12,3,5,5,355,13,Loyal Customers
+CUST-10926,562,4,4420.94,1105.24,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-01-21,2025-04-22,1,3,3,133,7,At Risk (High Value)
+CUST-10927,46,2,2247.54,1123.77,4.3,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-03-16,2026-09-20,4,2,2,422,8,Potential Loyalists
+CUST-10928,626,2,1317.86,658.93,3.7,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2025-02-15,2025-02-17,1,2,1,121,4,Hibernating / Churned
+CUST-10929,326,2,2413.92,1206.96,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-07-13,2025-12-14,1,2,2,122,5,Hibernating / Churned
+CUST-10930,141,3,3041.57,1013.86,3.97,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-07-22,2026-06-17,3,3,2,332,8,Hibernating / Churned
+CUST-10931,116,3,3925.04,1308.35,4.3,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2024-11-16,2026-07-12,3,3,3,333,9,Hibernating / Churned
+CUST-10932,444,1,734.4,734.4,3.1,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Control_A,2025-08-18,2025-08-18,1,1,1,111,3,Hibernating / Churned
+CUST-10933,28,10,11422.27,1142.23,3.78,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-04-13,2026-10-08,5,5,5,555,15,Champions
+CUST-10934,113,4,3997.01,999.25,4.02,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-01-28,2026-07-15,3,3,3,333,9,Hibernating / Churned
+CUST-10935,133,2,2626.74,1313.37,3.95,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-02-09,2026-06-25,3,2,2,322,7,Hibernating / Churned
+CUST-10936,100,4,4925.62,1231.4,4.18,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-07-23,2026-07-28,3,3,3,333,9,Hibernating / Churned
+CUST-10937,18,5,6020.82,1204.16,4.32,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2025-04-23,2026-10-18,5,4,4,544,13,Champions
+CUST-10938,631,1,1596.7,1596.7,3.8,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-02-12,2025-02-12,1,1,1,111,3,Hibernating / Churned
+CUST-10939,312,3,2929.28,976.43,4.57,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Variant_B,2024-11-07,2025-12-28,1,3,2,132,6,At Risk (High Value)
+CUST-10940,142,16,16646.49,1040.41,4.28,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-12-14,2026-06-16,3,5,5,355,13,Loyal Customers
+CUST-10941,495,1,1342.61,1342.61,4.7,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-06-28,2025-06-28,1,1,1,111,3,Hibernating / Churned
+CUST-10942,50,1,1433.25,1433.25,3.9,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2026-09-16,2026-09-16,4,1,1,411,6,Hibernating / Churned
+CUST-10943,283,4,5187.25,1296.81,3.68,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-04-27,2026-01-26,2,3,3,233,8,At Risk (High Value)
+CUST-10944,40,1,1108.66,1108.66,4.9,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2026-09-26,2026-09-26,4,1,1,411,6,Hibernating / Churned
+CUST-10945,37,10,12506.39,1250.64,4.25,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-11-24,2026-09-29,4,5,5,455,14,Champions
+CUST-10946,132,4,3475.1,868.78,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-06-11,2026-06-26,3,3,2,332,8,Hibernating / Churned
+CUST-10947,47,7,8711.82,1244.55,4.11,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Control_A,2024-12-17,2026-09-19,4,5,5,455,14,Champions
+CUST-10949,47,8,10667.63,1333.45,3.58,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-01-08,2026-09-19,4,5,5,455,14,Champions
+CUST-10951,101,5,3834.06,766.81,3.9,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2024-11-18,2026-07-27,3,4,3,343,10,Loyal Customers
+CUST-10952,35,7,10531.37,1504.48,4.24,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-07-12,2026-10-01,5,5,5,555,15,Champions
+CUST-10953,128,6,7838.85,1306.47,4.0,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2025-05-02,2026-06-30,3,4,4,344,11,Loyal Customers
+CUST-10954,102,4,3722.96,930.74,3.75,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-08-24,2026-07-26,3,3,3,333,9,Hibernating / Churned
+CUST-10956,393,1,1371.04,1371.04,3.9,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-10-08,2025-10-08,1,1,1,111,3,Hibernating / Churned
+CUST-10957,38,11,12257.82,1114.35,3.81,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-12-28,2026-09-28,4,5,5,455,14,Champions
+CUST-10958,61,5,6976.98,1395.4,4.02,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-10,2026-09-05,4,4,4,444,12,Champions
+CUST-10960,128,3,4160.42,1386.81,4.6,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-03-29,2026-06-30,3,3,3,333,9,Hibernating / Churned
+CUST-10961,405,5,5805.15,1161.03,3.74,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2024-11-29,2025-09-26,1,4,4,144,9,At Risk (High Value)
+CUST-10962,242,3,3713.46,1237.82,4.37,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-08-02,2026-03-08,2,3,3,233,8,At Risk (High Value)
+CUST-10963,336,1,1167.18,1167.18,3.8,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2025-12-04,2025-12-04,1,1,1,111,3,Hibernating / Churned
+CUST-10964,31,7,11550.66,1650.09,4.2,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-09-20,2026-10-05,5,5,5,555,15,Champions
+CUST-10965,238,2,3297.02,1648.51,4.1,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2025-10-16,2026-03-12,2,2,2,222,6,Hibernating / Churned
+CUST-10966,159,3,3634.87,1211.62,3.83,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2026-04-04,2026-05-30,2,3,3,233,8,At Risk (High Value)
+CUST-10967,38,7,9517.86,1359.69,3.9,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2024-11-10,2026-09-28,4,5,5,455,14,Champions
+CUST-10968,576,2,1591.8,795.9,3.95,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-02-18,2025-04-08,1,2,1,121,4,Hibernating / Churned
+CUST-10969,53,4,6355.16,1588.79,3.92,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-09-04,2026-09-13,4,3,4,434,11,Potential Loyalists
+CUST-10970,575,1,1065.96,1065.96,3.9,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-04-09,2025-04-09,1,1,1,111,3,Hibernating / Churned
+CUST-10971,249,2,1886.83,943.42,3.75,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-06-14,2026-03-01,2,2,1,221,5,Hibernating / Churned
+CUST-10972,129,3,4170.72,1390.24,4.07,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-09-25,2026-06-29,3,3,3,333,9,Hibernating / Churned
+CUST-10973,31,2,2164.31,1082.16,4.05,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2026-04-29,2026-10-05,5,2,2,522,9,Potential Loyalists
+CUST-10974,316,2,1819.51,909.76,4.55,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-01-03,2025-12-24,1,2,1,121,4,Hibernating / Churned
+CUST-10975,139,12,14816.1,1234.68,4.22,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-11-16,2026-06-19,3,5,5,355,13,Loyal Customers
+CUST-10976,67,2,2169.17,1084.58,4.75,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2026-06-11,2026-08-30,4,2,2,422,8,Potential Loyalists
+CUST-10977,69,7,9148.65,1306.95,3.96,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-03-22,2026-08-28,4,5,5,455,14,Champions
+CUST-10978,152,5,6275.75,1255.15,3.96,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-03-18,2026-06-06,3,4,4,344,11,Loyal Customers
+CUST-10979,13,3,3678.54,1226.18,4.23,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-09-09,2026-10-23,5,3,3,533,11,Potential Loyalists
+CUST-10980,236,4,3019.38,754.84,3.82,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-01-20,2026-03-14,2,3,2,232,7,At Risk (High Value)
+CUST-10981,528,1,993.04,993.04,4.4,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-05-26,2025-05-26,1,1,1,111,3,Hibernating / Churned
+CUST-10982,98,6,8133.56,1355.59,4.13,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-10-28,2026-07-30,3,4,4,344,11,Loyal Customers
+CUST-10983,370,1,534.55,534.55,3.8,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-10-31,2025-10-31,1,1,1,111,3,Hibernating / Churned
+CUST-10984,539,1,301.88,301.88,5.0,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-05-15,2025-05-15,1,1,1,111,3,Hibernating / Churned
+CUST-10985,370,2,1439.8,719.9,4.2,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Variant_B,2024-12-05,2025-10-31,1,2,1,121,4,Hibernating / Churned
+CUST-10986,163,4,4502.6,1125.65,3.75,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2025-11-25,2026-05-26,2,3,3,233,8,At Risk (High Value)
+CUST-10987,110,3,3389.37,1129.79,3.93,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-07-04,2026-07-18,3,3,2,332,8,Hibernating / Churned
+CUST-10988,70,3,3942.41,1314.14,3.6,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-12-10,2026-08-27,4,3,3,433,10,Potential Loyalists
+CUST-10989,162,5,5740.73,1148.15,4.4,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2025-06-05,2026-05-27,2,4,4,244,10,At Risk (High Value)
+CUST-10990,165,4,5166.14,1291.54,3.65,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-01-23,2026-05-24,2,3,3,233,8,At Risk (High Value)
+CUST-10991,672,1,1349.89,1349.89,4.2,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2025-01-02,2025-01-02,1,1,1,111,3,Hibernating / Churned
+CUST-10992,64,5,7112.48,1422.5,3.98,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-08-03,2026-09-02,4,4,4,444,12,Champions
+CUST-10993,116,6,7170.6,1195.1,3.55,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2025-02-17,2026-07-12,3,4,4,344,11,Loyal Customers
+CUST-10994,71,3,4284.98,1428.33,4.4,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2025-11-11,2026-08-26,4,3,3,433,10,Potential Loyalists
+CUST-10995,168,6,9023.84,1503.97,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-10,2026-05-21,2,4,5,245,11,At Risk (High Value)
+CUST-10996,85,11,12050.95,1095.54,4.05,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Variant_B,2024-11-11,2026-08-12,3,5,5,355,13,Loyal Customers
+CUST-10997,55,2,2606.59,1303.3,4.8,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2026-06-04,2026-09-11,4,2,2,422,8,Potential Loyalists
+CUST-10998,397,2,2130.83,1065.42,4.15,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Control_A,2025-04-15,2025-10-04,1,2,2,122,5,Hibernating / Churned
+CUST-11000,371,1,855.1,855.1,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-10-30,2025-10-30,1,1,1,111,3,Hibernating / Churned
+CUST-11001,51,3,3645.58,1215.19,4.1,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Control_A,2025-04-08,2026-09-15,4,3,3,433,10,Potential Loyalists
+CUST-11002,8,11,12315.82,1119.62,4.04,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2025-02-16,2026-10-28,5,5,5,555,15,Champions
+CUST-11003,35,8,7630.3,953.79,3.64,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-03-31,2026-10-01,5,5,4,554,14,Champions
+CUST-11004,98,5,6989.26,1397.85,4.04,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2025-10-03,2026-07-30,3,4,4,344,11,Loyal Customers
+CUST-11005,203,1,710.96,710.96,4.6,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2026-04-16,2026-04-16,2,1,1,211,4,Hibernating / Churned
+CUST-11006,46,6,8726.02,1454.34,4.43,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2026-01-20,2026-09-20,4,4,5,445,13,Champions
+CUST-11007,55,6,5713.45,952.24,3.9,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Variant_B,2025-02-07,2026-09-11,4,4,4,444,12,Champions
+CUST-11008,165,1,976.83,976.83,3.6,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2026-05-24,2026-05-24,2,1,1,211,4,Hibernating / Churned
+CUST-11009,20,3,1710.05,570.02,3.47,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2024-11-08,2026-10-16,5,3,1,531,9,Potential Loyalists
+CUST-11010,90,11,11773.2,1070.29,3.45,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-11-14,2026-08-07,3,5,5,355,13,Loyal Customers
+CUST-11011,166,3,2436.89,812.3,4.43,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Control_A,2024-11-16,2026-05-23,2,3,2,232,7,At Risk (High Value)
+CUST-11012,120,2,2483.43,1241.72,4.05,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2024-12-11,2026-07-08,3,2,2,322,7,Hibernating / Churned
+CUST-11013,497,1,906.83,906.83,3.9,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-06-26,2025-06-26,1,1,1,111,3,Hibernating / Churned
+CUST-11014,8,10,12228.07,1222.81,4.05,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2025-01-18,2026-10-28,5,5,5,555,15,Champions
+CUST-11015,42,5,6400.65,1280.13,4.32,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-09-15,2026-09-24,4,4,4,444,12,Champions
+CUST-11016,80,6,7413.59,1235.6,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-11-23,2026-08-17,3,4,4,344,11,Loyal Customers
+CUST-11017,237,4,5249.04,1312.26,4.03,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2024-12-20,2026-03-13,2,3,3,233,8,At Risk (High Value)
+CUST-11018,230,4,3974.94,993.74,3.95,Toronto Hub,Canada,43.6532,-79.3832,Email Campaign,Control_A,2025-03-06,2026-03-20,2,3,3,233,8,At Risk (High Value)
+CUST-11019,65,5,6154.63,1230.93,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-05-20,2026-09-01,4,4,4,444,12,Champions
+CUST-11020,160,1,1678.38,1678.38,4.4,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2026-05-29,2026-05-29,2,1,1,211,4,Hibernating / Churned
+CUST-11021,121,3,3428.3,1142.77,4.67,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-06-30,2026-07-07,3,3,2,332,8,Hibernating / Churned
+CUST-11022,58,6,6894.74,1149.12,4.12,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-10-08,2026-09-08,4,4,4,444,12,Champions
+CUST-11023,51,4,4293.43,1073.36,3.58,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Control_A,2025-09-01,2026-09-15,4,3,3,433,10,Potential Loyalists
+CUST-11024,189,5,5577.34,1115.47,4.56,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-02-07,2026-04-30,2,4,4,244,10,At Risk (High Value)
+CUST-11025,544,2,3722.01,1861.0,4.35,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-04-30,2025-05-10,1,2,3,123,6,Hibernating / Churned
+CUST-11026,214,1,983.36,983.36,4.1,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2026-04-05,2026-04-05,2,1,1,211,4,Hibernating / Churned
+CUST-11027,300,4,3932.93,983.23,4.05,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2025-03-07,2026-01-09,1,3,3,133,7,At Risk (High Value)
+CUST-11028,139,4,5335.39,1333.85,4.45,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-12-21,2026-06-19,3,3,3,333,9,Hibernating / Churned
+CUST-11029,293,3,3445.26,1148.42,3.93,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2024-11-29,2026-01-16,2,3,2,232,7,At Risk (High Value)
+CUST-11030,17,20,25471.07,1273.55,4.32,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-12-31,2026-10-19,5,5,5,555,15,Champions
+CUST-11031,84,8,9682.76,1210.34,4.16,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-07-19,2026-08-13,3,5,5,355,13,Loyal Customers
+CUST-11032,60,3,3542.83,1180.94,3.83,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2024-12-21,2026-09-06,4,3,2,432,9,Potential Loyalists
+CUST-11033,337,2,2562.7,1281.35,4.25,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-11-16,2025-12-03,1,2,2,122,5,Hibernating / Churned
+CUST-11034,19,5,7616.85,1523.37,4.32,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-11-24,2026-10-17,5,4,4,544,13,Champions
+CUST-11035,241,6,8516.41,1419.4,3.82,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2024-11-08,2026-03-09,2,4,5,245,11,At Risk (High Value)
+CUST-11036,21,8,9270.61,1158.83,3.7,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Control_A,2024-12-16,2026-10-15,5,5,5,555,15,Champions
+CUST-11037,423,1,1101.22,1101.22,5.0,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-09-08,2025-09-08,1,1,1,111,3,Hibernating / Churned
+CUST-11039,113,3,3209.63,1069.88,4.2,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2025-08-26,2026-07-15,3,3,2,332,8,Hibernating / Churned
+CUST-11040,46,5,5125.65,1025.13,3.68,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2025-09-08,2026-09-20,4,4,3,443,11,Loyal Customers
+CUST-11041,14,7,8790.99,1255.86,4.13,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-04-28,2026-10-22,5,5,5,555,15,Champions
+CUST-11042,203,1,894.55,894.55,4.2,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2026-04-16,2026-04-16,2,1,1,211,4,Hibernating / Churned
+CUST-11043,103,4,2867.99,717.0,4.0,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2024-11-08,2026-07-25,3,3,2,332,8,Hibernating / Churned
+CUST-11044,40,3,4047.84,1349.28,4.27,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Variant_B,2025-11-16,2026-09-26,4,3,3,433,10,Potential Loyalists
+CUST-11045,273,9,12504.23,1389.36,4.26,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2024-11-16,2026-02-05,2,5,5,255,12,At Risk (High Value)
+CUST-11046,279,5,5286.28,1057.26,4.18,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2024-11-28,2026-01-30,2,4,3,243,9,At Risk (High Value)
+CUST-11047,279,4,5076.42,1269.1,4.48,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-11-30,2026-01-30,2,3,3,233,8,At Risk (High Value)
+CUST-11049,428,2,2178.72,1089.36,3.2,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-03-20,2025-09-03,1,2,2,122,5,Hibernating / Churned
+CUST-11050,58,3,3182.58,1060.86,4.03,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-03-19,2026-09-08,4,3,2,432,9,Potential Loyalists
+CUST-11052,26,3,3537.75,1179.25,4.1,Toronto Hub,Canada,43.6532,-79.3832,Partner Referral,Variant_B,2025-07-15,2026-10-10,5,3,2,532,10,Potential Loyalists
+CUST-11053,487,4,3397.46,849.36,3.78,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-01-22,2025-07-06,1,3,2,132,6,At Risk (High Value)
+CUST-11054,181,2,2853.53,1426.76,3.95,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Variant_B,2024-12-08,2026-05-08,2,2,2,222,6,Hibernating / Churned
+CUST-11055,253,7,7425.2,1060.74,3.53,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-08-22,2026-02-25,2,5,4,254,11,At Risk (High Value)
+CUST-11056,12,9,11811.92,1312.44,3.96,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2025-01-12,2026-10-24,5,5,5,555,15,Champions
+CUST-11057,40,2,2064.99,1032.49,3.95,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-06-11,2026-09-26,4,2,2,422,8,Potential Loyalists
+CUST-11058,35,3,2108.55,702.85,4.33,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-01-21,2026-10-01,5,3,2,532,10,Potential Loyalists
+CUST-11059,28,5,7199.16,1439.83,4.3,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2024-11-09,2026-10-08,5,4,4,544,13,Champions
+CUST-11060,202,9,8000.51,888.95,3.98,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2025-01-09,2026-04-17,2,5,4,254,11,At Risk (High Value)
+CUST-11061,58,10,10106.96,1010.7,3.52,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Control_A,2025-04-19,2026-09-08,4,5,5,455,14,Champions
+CUST-11062,34,5,5489.68,1097.94,4.1,New York North,United States,40.7128,-74.006,Email Campaign,Variant_B,2025-01-05,2026-10-02,5,4,4,544,13,Champions
+CUST-11063,19,6,7904.05,1317.34,4.4,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-03-31,2026-10-17,5,4,4,544,13,Champions
+CUST-11064,34,2,2242.41,1121.2,3.6,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-07-05,2026-10-02,5,2,2,522,9,Potential Loyalists
+CUST-11065,60,14,17906.3,1279.02,4.36,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2025-01-23,2026-09-06,4,5,5,455,14,Champions
+CUST-11066,24,5,5644.64,1128.93,3.68,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-04-12,2026-10-12,5,4,4,544,13,Champions
+CUST-11067,227,7,8373.8,1196.26,4.19,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-12-22,2026-03-23,2,5,4,254,11,At Risk (High Value)
+CUST-11068,168,12,15809.1,1317.42,4.32,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2024-12-27,2026-05-21,2,5,5,255,12,At Risk (High Value)
+CUST-11069,7,3,4712.76,1570.92,3.7,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2024-11-16,2026-10-29,5,3,3,533,11,Potential Loyalists
+CUST-11070,563,1,758.31,758.31,4.3,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2025-04-21,2025-04-21,1,1,1,111,3,Hibernating / Churned
+CUST-11071,28,5,6062.92,1212.58,3.96,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-12-03,2026-10-08,5,4,4,544,13,Champions
+CUST-11072,6,3,3666.58,1222.19,4.73,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-03-14,2026-10-30,5,3,3,533,11,Potential Loyalists
+CUST-11073,13,13,17393.73,1337.98,4.43,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-04-15,2026-10-23,5,5,5,555,15,Champions
+CUST-11074,49,6,7194.3,1199.05,4.05,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Variant_B,2025-05-22,2026-09-17,4,4,4,444,12,Champions
+CUST-11075,358,1,919.18,919.18,3.7,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-11-12,2025-11-12,1,1,1,111,3,Hibernating / Churned
+CUST-11076,106,8,11041.77,1380.22,4.3,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-03-27,2026-07-22,3,5,5,355,13,Loyal Customers
+CUST-11077,272,2,2221.27,1110.64,4.05,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-06-09,2026-02-06,2,2,2,222,6,Hibernating / Churned
+CUST-11078,55,2,1823.24,911.62,3.2,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2026-04-28,2026-09-11,4,2,1,421,7,Potential Loyalists
+CUST-11079,222,1,876.51,876.51,4.1,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2026-03-28,2026-03-28,2,1,1,211,4,Hibernating / Churned
+CUST-11080,26,7,7491.38,1070.2,3.81,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2024-11-12,2026-10-10,5,5,4,554,14,Champions
+CUST-11081,111,7,9193.34,1313.33,4.14,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-03-16,2026-07-17,3,5,5,355,13,Loyal Customers
+CUST-11082,18,8,10206.1,1275.76,3.81,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Control_A,2025-06-18,2026-10-18,5,5,5,555,15,Champions
+CUST-11083,493,1,782.78,782.78,4.2,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2025-06-30,2025-06-30,1,1,1,111,3,Hibernating / Churned
+CUST-11084,413,2,2172.02,1086.01,4.05,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Variant_B,2025-09-05,2025-09-18,1,2,2,122,5,Hibernating / Churned
+CUST-11085,101,4,4961.67,1240.42,4.05,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2025-02-04,2026-07-27,3,3,3,333,9,Hibernating / Churned
+CUST-11086,305,6,7455.16,1242.53,4.12,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2024-11-30,2026-01-04,1,4,4,144,9,At Risk (High Value)
+CUST-11087,650,1,863.3,863.3,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-01-24,2025-01-24,1,1,1,111,3,Hibernating / Churned
+CUST-11089,121,2,1686.56,843.28,3.3,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-05-17,2026-07-07,3,2,1,321,6,Hibernating / Churned
+CUST-11090,278,2,3033.37,1516.68,3.4,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Control_A,2025-09-27,2026-01-31,2,2,2,222,6,Hibernating / Churned
+CUST-11091,208,4,4295.37,1073.84,3.75,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-02-22,2026-04-11,2,3,3,233,8,At Risk (High Value)
+CUST-11092,98,6,5289.64,881.61,3.93,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-05-03,2026-07-30,3,4,3,343,10,Loyal Customers
+CUST-11094,73,5,5700.89,1140.18,4.32,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-01-17,2026-08-24,4,4,4,444,12,Champions
+CUST-11095,296,2,1879.36,939.68,3.65,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2025-08-01,2026-01-13,1,2,1,121,4,Hibernating / Churned
+CUST-11096,286,1,919.26,919.26,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2026-01-23,2026-01-23,2,1,1,211,4,Hibernating / Churned
+CUST-11097,634,2,2016.97,1008.49,4.1,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Variant_B,2025-01-18,2025-02-09,1,2,2,122,5,Hibernating / Churned
+CUST-11098,501,3,3548.71,1182.9,4.03,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2024-11-18,2025-06-22,1,3,3,133,7,At Risk (High Value)
+CUST-11099,16,1,1341.51,1341.51,4.2,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2026-10-20,2026-10-20,5,1,1,511,7,Hibernating / Churned
+CUST-11100,336,2,937.31,468.66,3.5,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2025-09-04,2025-12-04,1,2,1,121,4,Hibernating / Churned
+CUST-11101,154,5,5906.95,1181.39,3.6,Sydney ANZ,Australia,-33.8688,151.2093,LinkedIn B2B Ads,Variant_B,2025-04-17,2026-06-04,3,4,4,344,11,Loyal Customers
+CUST-11102,59,9,13070.01,1452.22,4.1,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2025-12-01,2026-09-07,4,5,5,455,14,Champions
+CUST-11103,168,6,7279.54,1213.26,3.6,Toronto Hub,Canada,43.6532,-79.3832,Organic Search,Control_A,2024-12-03,2026-05-21,2,4,4,244,10,At Risk (High Value)
+CUST-11105,166,1,1119.53,1119.53,4.5,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2026-05-23,2026-05-23,2,1,1,211,4,Hibernating / Churned
+CUST-11106,517,1,375.98,375.98,3.5,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2025-06-06,2025-06-06,1,1,1,111,3,Hibernating / Churned
+CUST-11107,199,6,8815.73,1469.29,3.65,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-01-11,2026-04-20,2,4,5,245,11,At Risk (High Value)
+CUST-11108,389,3,2130.5,710.17,3.9,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-01-13,2025-10-12,1,3,2,132,6,At Risk (High Value)
+CUST-11109,37,3,2905.84,968.61,3.83,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-11-23,2026-09-29,4,3,2,432,9,Potential Loyalists
+CUST-11110,337,7,8287.11,1183.87,3.87,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-04-15,2025-12-03,1,5,4,154,10,At Risk (High Value)
+CUST-11111,100,6,5926.89,987.82,3.88,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-01-04,2026-07-28,3,4,4,344,11,Loyal Customers
+CUST-11112,33,3,3099.08,1033.03,4.03,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-09-17,2026-10-03,5,3,2,532,10,Potential Loyalists
+CUST-11113,424,1,1250.45,1250.45,3.8,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Variant_B,2025-09-07,2025-09-07,1,1,1,111,3,Hibernating / Churned
+CUST-11114,15,4,6829.82,1707.46,4.2,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2025-02-02,2026-10-21,5,3,4,534,12,Potential Loyalists
+CUST-11115,82,4,4234.32,1058.58,4.0,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2025-09-15,2026-08-15,3,3,3,333,9,Hibernating / Churned
+CUST-11116,686,1,912.17,912.17,3.5,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-12-19,2024-12-19,1,1,1,111,3,Hibernating / Churned
+CUST-11117,10,21,23080.09,1099.05,3.75,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2024-11-12,2026-10-26,5,5,5,555,15,Champions
+CUST-11118,26,7,7573.06,1081.87,3.79,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-12-03,2026-10-10,5,5,4,554,14,Champions
+CUST-11119,198,3,4444.23,1481.41,3.77,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-11-15,2026-04-21,2,3,3,233,8,At Risk (High Value)
+CUST-11121,78,2,1892.49,946.24,3.5,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Control_A,2025-05-20,2026-08-19,3,2,2,322,7,Hibernating / Churned
+CUST-11122,137,9,8274.34,919.37,4.06,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2025-01-18,2026-06-21,3,5,4,354,12,Loyal Customers
+CUST-11123,130,9,9305.93,1033.99,3.86,New York North,United States,40.7128,-74.006,Organic Search,Control_A,2025-02-26,2026-06-28,3,5,5,355,13,Loyal Customers
+CUST-11124,261,5,5195.27,1039.05,3.82,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2024-11-14,2026-02-17,2,4,3,243,9,At Risk (High Value)
+CUST-11125,418,1,1224.89,1224.89,4.1,Singapore APAC,Singapore,1.3521,103.8198,Email Campaign,Control_A,2025-09-13,2025-09-13,1,1,1,111,3,Hibernating / Churned
+CUST-11126,5,8,11328.27,1416.03,4.4,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2024-11-10,2026-10-31,5,5,5,555,15,Champions
+CUST-11127,101,3,3340.35,1113.45,4.23,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Variant_B,2026-02-05,2026-07-27,3,3,2,332,8,Hibernating / Churned
+CUST-11128,36,18,22941.47,1274.53,4.23,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2025-01-17,2026-09-30,5,5,5,555,15,Champions
+CUST-11131,359,2,1121.07,560.54,4.65,Singapore APAC,Singapore,1.3521,103.8198,Organic Search,Variant_B,2024-11-22,2025-11-11,1,2,1,121,4,Hibernating / Churned
+CUST-11132,87,7,8480.2,1211.46,3.8,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-12-19,2026-08-10,3,5,5,355,13,Loyal Customers
+CUST-11133,90,6,6233.12,1038.85,3.93,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-11-15,2026-08-07,3,4,4,344,11,Loyal Customers
+CUST-11134,96,5,3895.0,779.0,3.96,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2024-12-25,2026-08-01,3,4,3,343,10,Loyal Customers
+CUST-11135,165,3,4165.54,1388.51,3.5,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2025-01-15,2026-05-24,2,3,3,233,8,At Risk (High Value)
+CUST-11136,9,4,4372.16,1093.04,3.9,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2024-11-25,2026-10-27,5,3,3,533,11,Potential Loyalists
+CUST-11137,31,3,2619.07,873.02,3.57,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2025-05-30,2026-10-05,5,3,2,532,10,Potential Loyalists
+CUST-11139,603,2,2177.07,1088.54,3.55,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2024-11-06,2025-03-12,1,2,2,122,5,Hibernating / Churned
+CUST-11140,78,12,14272.8,1189.4,3.92,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2024-11-09,2026-08-19,3,5,5,355,13,Loyal Customers
+CUST-11142,292,2,1948.53,974.26,4.05,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2025-12-15,2026-01-17,2,2,2,222,6,Hibernating / Churned
+CUST-11143,14,10,13077.92,1307.79,3.85,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Control_A,2024-11-17,2026-10-22,5,5,5,555,15,Champions
+CUST-11144,207,5,5043.01,1008.6,4.18,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Variant_B,2025-01-03,2026-04-12,2,4,3,243,9,At Risk (High Value)
+CUST-11145,8,10,10305.87,1030.59,4.12,Dubai MENA,UAE,25.2048,55.2708,Partner Referral,Control_A,2025-06-27,2026-10-28,5,5,5,555,15,Champions
+CUST-11146,151,4,3842.16,960.54,3.9,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2024-11-28,2026-06-07,3,3,3,333,9,Hibernating / Churned
+CUST-11147,39,4,5303.47,1325.87,3.92,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2025-03-16,2026-09-27,4,3,3,433,10,Potential Loyalists
+CUST-11148,364,3,2572.34,857.45,3.93,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Control_A,2025-01-16,2025-11-06,1,3,2,132,6,At Risk (High Value)
+CUST-11150,8,3,3934.37,1311.46,4.0,New York North,United States,40.7128,-74.006,Partner Referral,Variant_B,2025-01-03,2026-10-28,5,3,3,533,11,Potential Loyalists
+CUST-11151,257,5,4026.75,805.35,4.24,Dubai MENA,UAE,25.2048,55.2708,Email Campaign,Control_A,2024-12-24,2026-02-21,2,4,3,243,9,At Risk (High Value)
+CUST-11152,475,1,2784.85,2784.85,3.9,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Variant_B,2025-07-18,2025-07-18,1,1,2,112,4,Hibernating / Churned
+CUST-11153,287,1,964.54,964.54,4.8,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Variant_B,2026-01-22,2026-01-22,2,1,1,211,4,Hibernating / Churned
+CUST-11154,139,7,9431.65,1347.38,3.84,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2024-11-19,2026-06-19,3,5,5,355,13,Loyal Customers
+CUST-11155,70,4,4149.91,1037.48,4.03,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2024-12-10,2026-08-27,4,3,3,433,10,Potential Loyalists
+CUST-11156,228,8,5320.23,665.03,3.78,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2025-03-06,2026-03-22,2,5,3,253,10,At Risk (High Value)
+CUST-11157,446,1,610.27,610.27,4.1,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2025-08-16,2025-08-16,1,1,1,111,3,Hibernating / Churned
+CUST-11159,108,9,7979.52,886.61,3.72,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-11-14,2026-07-20,3,5,4,354,12,Loyal Customers
+CUST-11160,385,3,2427.21,809.07,3.97,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Control_A,2024-11-13,2025-10-16,1,3,2,132,6,At Risk (High Value)
+CUST-11161,466,2,1138.34,569.17,4.15,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-02-20,2025-07-27,1,2,1,121,4,Hibernating / Churned
+CUST-11162,151,4,3806.5,951.62,3.62,Chattogram Hub,Bangladesh,22.3569,91.7832,Organic Search,Control_A,2026-01-09,2026-06-07,3,3,3,333,9,Hibernating / Churned
+CUST-11163,59,3,2427.81,809.27,3.83,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Control_A,2025-09-30,2026-09-07,4,3,2,432,9,Potential Loyalists
+CUST-11164,20,6,5991.33,998.56,4.0,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Control_A,2024-12-01,2026-10-16,5,4,4,544,13,Champions
+CUST-11165,27,3,4033.58,1344.53,4.2,New York North,United States,40.7128,-74.006,Organic Search,Variant_B,2025-11-27,2026-10-09,5,3,3,533,11,Potential Loyalists
+CUST-11166,376,1,2480.92,2480.92,5.0,Dubai MENA,UAE,25.2048,55.2708,Organic Search,Variant_B,2025-10-25,2025-10-25,1,1,2,112,4,Hibernating / Churned
+CUST-11167,11,4,4464.83,1116.21,4.2,Singapore APAC,Singapore,1.3521,103.8198,LinkedIn B2B Ads,Variant_B,2025-10-15,2026-10-25,5,3,3,533,11,Potential Loyalists
+CUST-11168,83,7,8186.01,1169.43,3.94,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2024-11-20,2026-08-14,3,5,4,354,12,Loyal Customers
+CUST-11169,38,4,5288.7,1322.18,4.42,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Variant_B,2026-06-29,2026-09-28,4,3,3,433,10,Potential Loyalists
+CUST-11170,143,4,4700.56,1175.14,4.15,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Control_A,2025-06-22,2026-06-15,3,3,3,333,9,Hibernating / Churned
+CUST-11171,419,1,1750.44,1750.44,4.5,Sydney ANZ,Australia,-33.8688,151.2093,Email Campaign,Variant_B,2025-09-12,2025-09-12,1,1,1,111,3,Hibernating / Churned
+CUST-11172,323,3,5791.44,1930.48,4.07,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2025-06-21,2025-12-17,1,3,4,134,8,At Risk (High Value)
+CUST-11173,110,5,5910.38,1182.08,4.2,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-10-05,2026-07-18,3,4,4,344,11,Loyal Customers
+CUST-11174,34,15,20676.07,1378.4,4.13,London EMEA,United Kingdom,51.5072,-0.1276,Partner Referral,Variant_B,2024-12-30,2026-10-02,5,5,5,555,15,Champions
+CUST-11177,81,9,12684.23,1409.36,3.79,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Control_A,2024-12-07,2026-08-16,3,5,5,355,13,Loyal Customers
+CUST-11178,15,8,6957.6,869.7,3.92,New York North,United States,40.7128,-74.006,LinkedIn B2B Ads,Variant_B,2024-12-06,2026-10-21,5,5,4,554,14,Champions
+CUST-11179,169,1,474.25,474.25,4.1,Singapore APAC,Singapore,1.3521,103.8198,Partner Referral,Control_A,2026-05-20,2026-05-20,2,1,1,211,4,Hibernating / Churned
+CUST-11180,192,6,7952.99,1325.5,3.93,Sydney ANZ,Australia,-33.8688,151.2093,Partner Referral,Control_A,2025-01-10,2026-04-27,2,4,4,244,10,At Risk (High Value)
+CUST-11181,55,5,7841.65,1568.33,3.88,Chattogram Hub,Bangladesh,22.3569,91.7832,Email Campaign,Variant_B,2025-03-20,2026-09-11,4,4,4,444,12,Champions
+CUST-11182,38,5,4419.86,883.97,3.5,London EMEA,United Kingdom,51.5072,-0.1276,Email Campaign,Control_A,2025-11-22,2026-09-28,4,4,3,443,11,Loyal Customers
+CUST-11183,137,6,4613.05,768.84,4.37,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Variant_B,2024-12-06,2026-06-21,3,4,3,343,10,Loyal Customers
+CUST-11184,35,11,10812.23,982.93,3.95,Dhaka Metro,Bangladesh,23.8103,90.4125,Organic Search,Control_A,2024-12-17,2026-10-01,5,5,5,555,15,Champions
+CUST-11185,103,5,6541.51,1308.3,3.94,Toronto Hub,Canada,43.6532,-79.3832,LinkedIn B2B Ads,Control_A,2025-06-10,2026-07-25,3,4,4,344,11,Loyal Customers
+CUST-11186,41,7,7771.49,1110.21,3.86,London EMEA,United Kingdom,51.5072,-0.1276,LinkedIn B2B Ads,Control_A,2025-04-04,2026-09-25,4,5,4,454,13,Champions
+CUST-11187,181,6,8702.59,1450.43,4.35,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-01-21,2026-05-08,2,4,5,245,11,At Risk (High Value)
+CUST-11188,22,30,35531.42,1184.38,3.8,Chattogram Hub,Bangladesh,22.3569,91.7832,Partner Referral,Control_A,2024-11-11,2026-10-14,5,5,5,555,15,Champions
+CUST-11189,114,5,6596.94,1319.39,4.18,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-05-29,2026-07-14,3,4,4,344,11,Loyal Customers
+CUST-11190,201,4,4215.5,1053.88,4.5,Dhaka Metro,Bangladesh,23.8103,90.4125,LinkedIn B2B Ads,Variant_B,2025-11-08,2026-04-18,2,3,3,233,8,At Risk (High Value)
+CUST-11191,26,4,4051.09,1012.77,3.5,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Control_A,2024-11-21,2026-10-10,5,3,3,533,11,Potential Loyalists
+CUST-11192,33,3,3631.18,1210.39,4.1,Chattogram Hub,Bangladesh,22.3569,91.7832,LinkedIn B2B Ads,Variant_B,2025-09-25,2026-10-03,5,3,3,533,11,Potential Loyalists
+CUST-11193,12,2,2804.34,1402.17,4.2,London EMEA,United Kingdom,51.5072,-0.1276,Organic Search,Variant_B,2026-03-22,2026-10-24,5,2,2,522,9,Potential Loyalists
+CUST-11194,58,3,2279.68,759.89,4.43,Dhaka Metro,Bangladesh,23.8103,90.4125,Email Campaign,Control_A,2026-06-28,2026-09-08,4,3,2,432,9,Potential Loyalists
+CUST-11195,5,12,15604.81,1300.4,4.25,Dubai MENA,UAE,25.2048,55.2708,LinkedIn B2B Ads,Variant_B,2025-04-09,2026-10-31,5,5,5,555,15,Champions
+CUST-11196,325,6,4958.02,826.34,3.75,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Control_A,2024-12-16,2025-12-15,1,4,3,143,8,At Risk (High Value)
+CUST-11197,444,3,2831.47,943.82,4.53,Sydney ANZ,Australia,-33.8688,151.2093,Organic Search,Variant_B,2025-04-14,2025-08-18,1,3,2,132,6,At Risk (High Value)
+CUST-11198,57,4,4456.13,1114.03,3.8,New York North,United States,40.7128,-74.006,Partner Referral,Control_A,2025-02-13,2026-09-09,4,3,3,433,10,Potential Loyalists
+CUST-11199,5,18,22182.81,1232.38,4.17,Dhaka Metro,Bangladesh,23.8103,90.4125,Partner Referral,Variant_B,2025-02-11,2026-10-31,5,5,5,555,15,Champions
